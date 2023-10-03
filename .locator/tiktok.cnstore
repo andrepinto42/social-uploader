@@ -1,0 +1,687 @@
+{
+	"id": "f1ea6bf8-1c55-4426-bd77-68a1cd276581",
+	"name": "tiktok",
+	"nodes": [],
+	"locators": [
+		{
+			"id": "07037b7a-af5c-4e8f-9523-6d83acca5b53",
+			"name": "button_select_file",
+			"filePath": "a441e041-4d65-4f46-aa9e-1f77f387dd3f.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "TikTok Creator Center"
+							},
+							"url": {
+								"value": "https://www.tiktok.com/creator-center/upload?from=upload",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "IFRAME"
+									},
+									"ancestorId": {
+										"value": "root",
+										"excluded": true
+									},
+									"ancestorClass": {
+										"value": "css-1l2ie4f elu0u1q0",
+										"excluded": true
+									},
+									"isLeaf": {
+										"value": "1",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>div>div>div>div>div>iframe",
+										"excluded": true
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"src": {
+										"value": "https://www.tiktok.com/creator#/upload?scene=cre*"
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									},
+									"data-tt": {
+										"isCustom": true,
+										"value": "Upload_index_iframe",
+										"operator": "equals",
+										"excluded": true
+									},
+									"style": {
+										"isCustom": true,
+										"value": "height: 650px; border-style: none; width: 100%; margin-bottom: -7px; z-index: 2; position: relative;",
+										"operator": "equals",
+										"excluded": true
+									}
+								},
+								"childControls": [
+									{
+										"identifier": {
+											"tag": {
+												"value": "BUTTON"
+											},
+											"class": {
+												"value": "css-byn4hh",
+												"excluded": true
+											},
+											"ancestorId": {
+												"value": "root",
+												"excluded": true
+											},
+											"ancestorClass": {
+												"value": "jsx-2751257330 file-select-button wide-file-select-button",
+												"excluded": true
+											},
+											"isLeaf": {
+												"value": "0",
+												"excluded": true
+											},
+											"cssSelector": {
+												"value": "body>div>div>div>div>div>div>div>div>div>div>button",
+												"excluded": true
+											},
+											"sInfo": {
+												"value": "Select file",
+												"excluded": true
+											},
+											"tableRow": {
+												"value": "-1",
+												"excluded": true
+											},
+											"tableCol": {
+												"value": "-1",
+												"excluded": true
+											},
+											"controlMetaType": "Web",
+											"index": {
+												"value": "1",
+												"excluded": true
+											},
+											"aria-label": {
+												"isCustom": true,
+												"value": "Select file",
+												"operator": "equals",
+												"excluded": true
+											}
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "80a158de-0f1d-4547-8df7-60b98be746d8",
+			"name": "caption",
+			"filePath": "e650c572-c850-4a0f-a34d-8a29b0f8f11e.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "TikTok Creator Center"
+							},
+							"url": {
+								"value": "https://www.tiktok.com/creator-center/upload?from=upload",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "IFRAME"
+									},
+									"ancestorId": {
+										"value": "root",
+										"excluded": true
+									},
+									"ancestorClass": {
+										"value": "css-1l2ie4f elu0u1q0",
+										"excluded": true
+									},
+									"isLeaf": {
+										"value": "1",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>div>div>div>div>div>iframe",
+										"excluded": true
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"src": {
+										"value": "https://www.tiktok.com/creator#/upload?scene=cre*"
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									},
+									"data-tt": {
+										"isCustom": true,
+										"value": "Upload_index_iframe",
+										"operator": "equals",
+										"excluded": true
+									},
+									"style": {
+										"isCustom": true,
+										"value": "height: 1205px; border-style: none; width: 100%; margin-bottom: -7px; z-index: 2; position: relative;",
+										"operator": "equals",
+										"excluded": true
+									}
+								},
+								"childControls": [
+									{
+										"identifier": {
+											"tag": {
+												"value": "DIV"
+											},
+											"class": {
+												"value": "public-DraftStyleDefault-block public-DraftStyleDefault-ltr"
+											},
+											"ancestorId": {
+												"value": "root"
+											},
+											"ancestorClass": {
+												"value": "notranslate public-DraftEditor-content",
+												"excluded": true
+											},
+											"isLeaf": {
+												"value": "0",
+												"excluded": true
+											},
+											"cssSelector": {
+												"value": "body>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div",
+												"excluded": true
+											},
+											"tableRow": {
+												"value": "-1",
+												"excluded": true
+											},
+											"tableCol": {
+												"value": "-1",
+												"excluded": true
+											},
+											"controlMetaType": "Web",
+											"index": {
+												"value": "1",
+												"excluded": true
+											},
+											"data-offset-key": {
+												"isCustom": true,
+												"value": "cgkf3-0-0",
+												"operator": "equals",
+												"excluded": true
+											}
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "db7d4dfb-97de-4429-bcb1-d86d7b82a367",
+			"name": "button_post",
+			"filePath": "96d61c00-bcdb-4e5b-b3c7-115865f96088.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "TikTok Creator Center"
+							},
+							"url": {
+								"value": "https://www.tiktok.com/creator-center/upload?from=upload",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "IFRAME"
+									},
+									"ancestorId": {
+										"value": "root",
+										"excluded": true
+									},
+									"ancestorClass": {
+										"value": "css-1l2ie4f elu0u1q0",
+										"excluded": true
+									},
+									"isLeaf": {
+										"value": "1",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>div>div>div>div>div>iframe",
+										"excluded": true
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"src": {
+										"value": "https://www.tiktok.com/creator#/upload?scene=cre*"
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									},
+									"data-tt": {
+										"isCustom": true,
+										"value": "Upload_index_iframe",
+										"operator": "equals",
+										"excluded": true
+									},
+									"style": {
+										"isCustom": true,
+										"value": "height: 1205px; border-style: none; width: 100%; margin-bottom: -7px; z-index: 2; position: relative;",
+										"operator": "equals",
+										"excluded": true
+									}
+								},
+								"childControls": [
+									{
+										"identifier": {
+											"tag": {
+												"value": "BUTTON"
+											},
+											"class": {
+												"value": "css-y1m958",
+												"excluded": true
+											},
+											"ancestorId": {
+												"value": "root",
+												"excluded": true
+											},
+											"ancestorClass": {
+												"value": "jsx-3366794632 btn-post",
+												"excluded": true
+											},
+											"isLeaf": {
+												"value": "0",
+												"excluded": true
+											},
+											"cssSelector": {
+												"value": "body>div>div>div>div>div>div>div>div>div>button",
+												"excluded": true
+											},
+											"sInfo": {
+												"value": "Post"
+											},
+											"tableRow": {
+												"value": "-1",
+												"excluded": true
+											},
+											"tableCol": {
+												"value": "-1",
+												"excluded": true
+											},
+											"controlMetaType": "Web",
+											"index": {
+												"value": "1",
+												"excluded": true
+											}
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "fe473eba-ee40-4cfb-aa73-a4c09267dabd",
+			"name": "message_sucess",
+			"filePath": "266e0921-e97a-496e-895b-fcde9ac23020.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "TikTok Creator Center"
+							},
+							"url": {
+								"value": "https://www.tiktok.com/creator-center/upload?from=upload",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "IFRAME"
+									},
+									"ancestorId": {
+										"value": "root",
+										"excluded": true
+									},
+									"ancestorClass": {
+										"value": "css-1l2ie4f elu0u1q0",
+										"excluded": true
+									},
+									"isLeaf": {
+										"value": "1",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>div>div>div>div>div>iframe",
+										"excluded": true
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"src": {
+										"value": "https://www.tiktok.com/creator#/upload?scene=cre*"
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									},
+									"data-tt": {
+										"isCustom": true,
+										"value": "Upload_index_iframe",
+										"operator": "equals",
+										"excluded": true
+									},
+									"style": {
+										"isCustom": true,
+										"value": "height: 1205px; border-style: none; width: 100%; margin-bottom: -7px; z-index: 2; position: relative;",
+										"operator": "equals",
+										"excluded": true
+									}
+								},
+								"childControls": [
+									{
+										"identifier": {
+											"tag": {
+												"value": "DIV"
+											},
+											"class": {
+												"value": "tiktok-modal__modal-title"
+											},
+											"ancestorId": {
+												"value": "root"
+											},
+											"ancestorClass": {
+												"value": "tiktok-modal__modal-wrapper tiktok-modal__modal-wrapper-small",
+												"excluded": true
+											},
+											"isLeaf": {
+												"value": "1"
+											},
+											"cssSelector": {
+												"value": "body>div>div>div>div>div>div>div>div>div>div",
+												"excluded": true
+											},
+											"sInfo": {
+												"value": "Your videos are being uploaded to TikTok!",
+												"excluded": true
+											},
+											"tableRow": {
+												"value": "-1",
+												"excluded": true
+											},
+											"tableCol": {
+												"value": "-1",
+												"excluded": true
+											},
+											"controlMetaType": "Web",
+											"index": {
+												"value": "1",
+												"excluded": true
+											}
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "a2a64b73-d235-4660-8a0d-ca69e3f4b5ce",
+			"name": "div_post",
+			"filePath": "4f49e29b-8700-42f2-84f4-92604df8e862.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "TikTok Creator Center"
+							},
+							"url": {
+								"value": "https://www.tiktok.com/creator-center/upload?from=upload",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "IFRAME"
+									},
+									"ancestorId": {
+										"value": "root",
+										"excluded": true
+									},
+									"ancestorClass": {
+										"value": "css-1l2ie4f elu0u1q0",
+										"excluded": true
+									},
+									"isLeaf": {
+										"value": "1",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>div>div>div>div>div>iframe",
+										"excluded": true
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"src": {
+										"value": "https://www.tiktok.com/creator#/upload?scene=cre*"
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									},
+									"data-tt": {
+										"isCustom": true,
+										"value": "Upload_index_iframe",
+										"operator": "equals",
+										"excluded": true
+									},
+									"style": {
+										"isCustom": true,
+										"value": "height: 1077px; border-style: none; width: 100%; margin-bottom: -7px; z-index: 2; position: relative;",
+										"operator": "equals",
+										"excluded": true
+									}
+								},
+								"childControls": [
+									{
+										"identifier": {
+											"tag": {
+												"value": "DIV"
+											},
+											"class": {
+												"value": "css-1z070dx",
+												"excluded": true
+											},
+											"ancestorId": {
+												"value": "root"
+											},
+											"ancestorClass": {
+												"value": "css-1db5cpb",
+												"excluded": true
+											},
+											"isLeaf": {
+												"value": "1",
+												"excluded": true
+											},
+											"cssSelector": {
+												"value": "body>div>div>div>div>div>div>div>div>div>button>div>div",
+												"excluded": true
+											},
+											"sInfo": {
+												"value": "Post"
+											},
+											"tableRow": {
+												"value": "-1",
+												"excluded": true
+											},
+											"tableCol": {
+												"value": "-1",
+												"excluded": true
+											},
+											"controlMetaType": "Web",
+											"index": {
+												"value": "1",
+												"excluded": true
+											}
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		}
+	]
+}

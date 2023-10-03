@@ -1,0 +1,1750 @@
+{
+	"id": "fbd41943-437b-4dc8-b26f-082fb0c6242a",
+	"name": "instagram",
+	"nodes": [],
+	"locators": [
+		{
+			"id": "a272dbc9-f276-4496-b163-6b44fd638b99",
+			"name": "button_select_from_computer",
+			"filePath": "0f1cc613-6cd5-4177-ac92-5fba7546fa47.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "Create new post • Instagram"
+							},
+							"url": {
+								"value": "https://www.instagram.com/",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "BUTTON"
+									},
+									"class": {
+										"value": "_acan _acap _acas _aj1-",
+										"excluded": true
+									},
+									"type": {
+										"value": "button",
+										"excluded": true
+									},
+									"ancestorClass": {
+										"value": "x9f619 xjbqb8w x78zum5 x168nmei x13lgxp2 x5pf9jr xo71vjh x1iorvi4 x150jy0e xjkvuk6 x1e558r4 x1n2onr6 x1plvlek xryxfnj x1c4vz4f x2lah0s xdt5ytf xqjyukv x1qjc9v5 x1oa3qoh x1nhvcw1",
+										"excluded": true
+									},
+									"isLeaf": {
+										"value": "1",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>button",
+										"excluded": true
+									},
+									"sInfo": {
+										"value": "Select from computer"
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "ce771647-0480-429a-9528-4d722016581d",
+			"name": "current_account",
+			"filePath": "a511d8a8-6e8e-445f-9087-0633535fea92.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "Instagram"
+							},
+							"url": {
+								"value": "https://www.instagram.com/",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "A"
+									},
+									"class": {
+										"value": "x1i10hfl xjbqb8w x6umtig x1b1mbwd xaqea5y xav7gou x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz _aak1 _a6hd",
+										"excluded": true
+									},
+									"ancestorId": {
+										"value": "mount_0_0_i+",
+										"excluded": true
+									},
+									"ancestorClass": {
+										"value": "x9f619 xjbqb8w x78zum5 x168nmei x13lgxp2 x5pf9jr xo71vjh x1mh8g0r x1uhb9sk x1plvlek xryxfnj x1iyjqo2 x2lwn1j xeuugli x1q0g3np xqjyukv x1qjc9v5 x1oa3qoh x1nhvcw1",
+										"excluded": false
+									},
+									"isLeaf": {
+										"value": "1",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>div>div>div>div>div>div>div>div>div>div>section>main>div>div>div>div>div>div>div>div>div>div>div>div>div>a",
+										"excluded": true
+									},
+									"sInfo": {
+										"value": "amdrepinto42",
+										"excluded": true
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tabIndex": {
+										"value": "0",
+										"excluded": true
+									},
+									"href": {
+										"value": "/amdrepinto42/",
+										"excluded": true
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									},
+									"role": {
+										"isCustom": true,
+										"value": "link",
+										"operator": "equals",
+										"excluded": true
+									}
+								},
+								"childControls": [],
+								"excluded": false
+							}
+						],
+						"excluded": false
+					}
+				],
+				"parameters": {
+					"excluded": true,
+					"operator": "equals",
+					"value": ""
+				}
+			}
+		},
+		{
+			"id": "a6a5cb9a-0693-4a63-ad7f-bf26c638c4f6",
+			"name": "switch_button",
+			"filePath": "0efc44d9-de30-43cd-b0b8-f866b0b78580.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "Instagram"
+							},
+							"url": {
+								"value": "https://www.instagram.com/",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "SPAN"
+									},
+									"class": {
+										"value": "x1lliihq x1plvlek xryxfnj x1n2onr6 x193iq5w xeuugli x1fj9vlw x13faqbe x1vvkbs x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x1i0vuye x1fhwpqd x1s688f x173jzuc x1s3etm8 x676frb x10wh9bi x1wdrske x8viiok x18hxmgj",
+										"excluded": true
+									},
+									"ancestorId": {
+										"value": "mount_0_0_/C",
+										"excluded": true
+									},
+									"ancestorClass": {
+										"value": "_acan _acao _acas _aj1-",
+										"excluded": true
+									},
+									"isLeaf": {
+										"value": "1",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>div>div>div>div>div>div>div>div>div>div>section>main>div>div>div>div>div>div>div>div>div>div>div>button>span",
+										"excluded": false
+									},
+									"sInfo": {
+										"value": "Switch"
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									},
+									"dir": {
+										"isCustom": true,
+										"value": "auto",
+										"operator": "equals",
+										"excluded": true
+									},
+									"style": {
+										"isCustom": true,
+										"value": "line-height: var(--base-line-clamp-line-height); --base-line-clamp-line-height: 16px;",
+										"operator": "equals",
+										"excluded": true
+									}
+								},
+								"childControls": [],
+								"excluded": false
+							}
+						],
+						"excluded": false
+					}
+				],
+				"parameters": {
+					"excluded": true,
+					"operator": "equals",
+					"value": ""
+				}
+			}
+		},
+		{
+			"id": "95987020-1c01-4da0-be03-867cfc17ae00",
+			"name": "switch_k7studiogames",
+			"filePath": "e6c390b5-7b6a-47f3-a196-1c3bf9253192.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "Instagram"
+							},
+							"url": {
+								"value": "https://www.instagram.com/",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "SPAN"
+									},
+									"class": {
+										"value": "x1lliihq x193iq5w x6ikm8r x10wlt62 xlyipyv xuxw1ft",
+										"excluded": true
+									},
+									"ancestorClass": {
+										"value": "x1lliihq x1plvlek xryxfnj x1n2onr6 x193iq5w xeuugli x1fj9vlw x13faqbe x1vvkbs x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x1i0vuye xvs91rp x1s688f x5n08af x10wh9bi x1wdrske x8viiok x18hxmgj",
+										"excluded": true
+									},
+									"isLeaf": {
+										"value": "1",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>span>span",
+										"excluded": true
+									},
+									"sInfo": {
+										"value": "k7studiogames"
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "6d86bf2e-4778-4c37-be27-bab072b4ca67",
+			"name": "create_post",
+			"filePath": "3c5dc669-e5d9-4bae-9c4c-bea56ccfd491.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "Instagram"
+							},
+							"url": {
+								"value": "https://www.instagram.com/",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "SPAN"
+									},
+									"class": {
+										"value": "x1lliihq x193iq5w x6ikm8r x10wlt62 xlyipyv xuxw1ft",
+										"excluded": true
+									},
+									"ancestorId": {
+										"value": "mount_0_0_",
+										"operator": "startWith"
+									},
+									"ancestorClass": {
+										"value": "x1lliihq x1plvlek xryxfnj x1n2onr6 x193iq5w xeuugli x1fj9vlw x13faqbe x1vvkbs x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x1i0vuye xl565be xo1l8bm x5n08af x1tu3fi x3x7a5m x10wh9bi x1wdrske x8viiok x18hxmgj",
+										"excluded": true
+									},
+									"isLeaf": {
+										"value": "1",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>span>div>a>div>div>div>div>span>span",
+										"excluded": true
+									},
+									"sInfo": {
+										"value": "Create"
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									}
+								},
+								"childControls": [],
+								"excluded": false
+							}
+						],
+						"excluded": false
+					}
+				],
+				"parameters": {
+					"excluded": true,
+					"operator": "equals",
+					"value": ""
+				}
+			}
+		},
+		{
+			"id": "224e7236-812a-409d-b36c-9c94155559dd",
+			"name": "button_next",
+			"filePath": "312efedf-d658-4d9f-9fc2-eb61d7c1a735.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "Create new post • Instagram"
+							},
+							"url": {
+								"value": "https://www.instagram.com/",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "DIV"
+									},
+									"class": {
+										"value": "x1i10hfl xjqpnuy xa49m3k xqeqjp1 x2hbi6w xdl72j9 x2lah0s xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r x2lwn1j xeuugli x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1q0g3np x1lku1pv x1a2a7pz x6s0dn4 xjyslct x1ejq31n xd10rxx x1sy0etr x17r0tee x9f619 x1ypdohk x1i0vuye x1f6kntn xwhw2v2 xl56j7k x17ydfre x2b8uid xlyipyv x87ps6o x14atkfc xcdnw81 xjbqb8w xm3z3ea x1x8b98j x131883w x16mih1h x972fbf xcfux6l x1qhh985 xm0m39n xt0psk2 xt7dq6l xexx8yu x4uap5 x18d9i69 xkhd6sd x1n2onr6 x1n5bzlp x173jzuc x1yc6y37",
+										"excluded": true
+									},
+									"ancestorClass": {
+										"value": "x9f619 xjbqb8w x78zum5 x168nmei x13lgxp2 x5pf9jr xo71vjh xyamay9 x1pi30zi x1l90r2v x1swvt13 x1n2onr6 x1plvlek xryxfnj x1c4vz4f x2lah0s xdt5ytf xqjyukv x1qjc9v5 x1oa3qoh x1nhvcw1",
+										"excluded": true
+									},
+									"isLeaf": {
+										"value": "1",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div",
+										"excluded": true
+									},
+									"sInfo": {
+										"value": "Next"
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tabIndex": {
+										"value": "0",
+										"excluded": true
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									},
+									"role": {
+										"isCustom": true,
+										"value": "button",
+										"operator": "equals",
+										"excluded": true
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "fdb4e34e-1d1c-43db-8475-47af29cdbe9a",
+			"name": "button_next1",
+			"filePath": "ae7d69a8-02b8-4141-9770-72ebb1560175.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "Create new post • Instagram"
+							},
+							"url": {
+								"value": "https://www.instagram.com/",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "DIV"
+									},
+									"class": {
+										"value": "x1i10hfl xjqpnuy xa49m3k xqeqjp1 x2hbi6w xdl72j9 x2lah0s xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r x2lwn1j xeuugli x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1q0g3np x1lku1pv x1a2a7pz x6s0dn4 xjyslct x1ejq31n xd10rxx x1sy0etr x17r0tee x9f619 x1ypdohk x1i0vuye x1f6kntn xwhw2v2 xl56j7k x17ydfre x2b8uid xlyipyv x87ps6o x14atkfc xcdnw81 xjbqb8w xm3z3ea x1x8b98j x131883w x16mih1h x972fbf xcfux6l x1qhh985 xm0m39n xt0psk2 xt7dq6l xexx8yu x4uap5 x18d9i69 xkhd6sd x1n2onr6 x1n5bzlp x173jzuc x1yc6y37",
+										"excluded": true
+									},
+									"ancestorClass": {
+										"value": "x9f619 xjbqb8w x78zum5 x168nmei x13lgxp2 x5pf9jr xo71vjh xyamay9 x1pi30zi x1l90r2v x1swvt13 x1n2onr6 x1plvlek xryxfnj x1c4vz4f x2lah0s xdt5ytf xqjyukv x1qjc9v5 x1oa3qoh x1nhvcw1",
+										"excluded": true
+									},
+									"isLeaf": {
+										"value": "1",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div",
+										"excluded": true
+									},
+									"sInfo": {
+										"value": "Next"
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tabIndex": {
+										"value": "0",
+										"excluded": true
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									},
+									"role": {
+										"isCustom": true,
+										"value": "button",
+										"operator": "equals",
+										"excluded": true
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "61939b03-f5a0-4d4a-883b-0aef598098f4",
+			"name": "button_share",
+			"filePath": "701d46e2-95f0-4802-990b-544336a60298.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "Create new post • Instagram"
+							},
+							"url": {
+								"value": "https://www.instagram.com/",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "DIV"
+									},
+									"class": {
+										"value": "x1i10hfl xjqpnuy xa49m3k xqeqjp1 x2hbi6w xdl72j9 x2lah0s xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r x2lwn1j xeuugli x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1q0g3np x1lku1pv x1a2a7pz x6s0dn4 xjyslct x1ejq31n xd10rxx x1sy0etr x17r0tee x9f619 x1ypdohk x1i0vuye x1f6kntn xwhw2v2 xl56j7k x17ydfre x2b8uid xlyipyv x87ps6o x14atkfc xcdnw81 xjbqb8w xm3z3ea x1x8b98j x131883w x16mih1h x972fbf xcfux6l x1qhh985 xm0m39n xt0psk2 xt7dq6l xexx8yu x4uap5 x18d9i69 xkhd6sd x1n2onr6 x1n5bzlp x173jzuc x1yc6y37",
+										"excluded": true
+									},
+									"ancestorClass": {
+										"value": "x9f619 xjbqb8w x78zum5 x168nmei x13lgxp2 x5pf9jr xo71vjh xyamay9 x1pi30zi x1l90r2v x1swvt13 x1n2onr6 x1plvlek xryxfnj x1c4vz4f x2lah0s xdt5ytf xqjyukv x1qjc9v5 x1oa3qoh x1nhvcw1",
+										"excluded": true
+									},
+									"isLeaf": {
+										"value": "1",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div",
+										"excluded": true
+									},
+									"sInfo": {
+										"value": "Share"
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tabIndex": {
+										"value": "0",
+										"excluded": true
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									},
+									"role": {
+										"isCustom": true,
+										"value": "button",
+										"operator": "equals",
+										"excluded": true
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "423a75bf-3adb-4e1b-b052-e3da12c5b536",
+			"name": "edit_file_name",
+			"filePath": "8fd2647a-6d7b-4827-ba63-5aabc5073fc9.jpg",
+			"content": {
+				"automationType": "Uia",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"automationId": {
+								"value": "",
+								"excluded": true
+							},
+							"isPassword": {
+								"value": "False",
+								"excluded": true
+							},
+							"orientation": {
+								"value": "None",
+								"excluded": true
+							},
+							"role": {
+								"value": "pane"
+							},
+							"isDirectChild": {
+								"value": "True"
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Uia",
+							"name": {
+								"value": "Google Chrome",
+								"operator": "endWith"
+							},
+							"index": {
+								"value": "1",
+								"excluded": true
+							}
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"automationId": {
+										"value": "",
+										"excluded": true
+									},
+									"isPassword": {
+										"value": "False",
+										"excluded": true
+									},
+									"orientation": {
+										"value": "None",
+										"excluded": true
+									},
+									"role": {
+										"value": "window"
+									},
+									"isDirectChild": {
+										"value": "True"
+									},
+									"className": {
+										"value": "#32770"
+									},
+									"controlMetaType": "Uia",
+									"name": {
+										"value": "Open"
+									},
+									"index": {
+										"value": "1",
+										"excluded": true
+									}
+								},
+								"childControls": [
+									{
+										"identifier": {
+											"automationId": {
+												"value": "1148"
+											},
+											"isPassword": {
+												"value": "False",
+												"excluded": true
+											},
+											"orientation": {
+												"value": "None",
+												"excluded": true
+											},
+											"role": {
+												"value": "comboBox"
+											},
+											"accessKey": {
+												"value": "Alt+n"
+											},
+											"isDirectChild": {
+												"value": "True"
+											},
+											"className": {
+												"value": "ComboBox"
+											},
+											"controlMetaType": "Uia",
+											"name": {
+												"value": "File name:",
+												"excluded": true
+											},
+											"index": {
+												"value": "1",
+												"excluded": true
+											}
+										},
+										"childControls": [
+											{
+												"identifier": {
+													"automationId": {
+														"value": "1148"
+													},
+													"isPassword": {
+														"value": "False",
+														"excluded": true
+													},
+													"orientation": {
+														"value": "None",
+														"excluded": true
+													},
+													"role": {
+														"value": "edit"
+													},
+													"accessKey": {
+														"value": "Alt+n"
+													},
+													"isDirectChild": {
+														"value": "True"
+													},
+													"className": {
+														"value": "Edit"
+													},
+													"controlMetaType": "Uia",
+													"name": {
+														"value": "File name:",
+														"excluded": true
+													},
+													"index": {
+														"value": "1",
+														"excluded": true
+													}
+												},
+												"childControls": [],
+												"excluded": false
+											}
+										],
+										"excluded": false
+									}
+								],
+								"excluded": false
+							}
+						],
+						"excluded": false
+					}
+				],
+				"parameters": {
+					"excluded": true,
+					"operator": "equals",
+					"value": ""
+				}
+			}
+		},
+		{
+			"id": "5021d162-4828-4989-a272-f84c6b7aee84",
+			"name": "my_caption",
+			"filePath": "49617372-0033-4d60-a281-a47d38d8e33c.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "Create new post • Instagram"
+							},
+							"url": {
+								"value": "https://www.instagram.com/",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "P"
+									},
+									"class": {
+										"value": "xdj266r x11i5rnm xat24cr x1mh8g0r",
+										"excluded": true
+									},
+									"ancestorClass": {
+										"value": "xw2csxc x1odjw0f x1n2onr6 x1hnll1o xpqswwc xl565be x5dp1im xdj266r x11i5rnm xat24cr x1mh8g0r x1w2wdq1 xen30ot x1swvt13 x1pi30zi xh8yej3 x5n08af notranslate",
+										"excluded": true
+									},
+									"isLeaf": {
+										"value": "0",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>p",
+										"excluded": true
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "69936365-94bf-445c-9014-d862f1cc26f7",
+			"name": "on_sucess_image",
+			"filePath": "66ead481-2967-4c1d-91cb-03b5991624e4.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "Create new post • Instagram"
+							},
+							"url": {
+								"value": "https://www.instagram.com/",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "DIV"
+									},
+									"class": {
+										"value": "x6s0dn4 x78zum5 x5yr21d xl56j7k x1n2onr6 xh8yej3"
+									},
+									"ancestorClass": {
+										"value": "xdl72j9 x1iyjqo2 xs83m0k x15wfb8v x3aagtl xqbdwvv x6ql1ns x1cwzgcd",
+										"excluded": true
+									},
+									"isLeaf": {
+										"value": "0",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>div>div>div>div>div>div>div>div>div>div>div>div>div>div",
+										"excluded": true
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									},
+									"style": {
+										"isCustom": true,
+										"value": "opacity: 1;",
+										"operator": "equals",
+										"excluded": true
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "346350e7-d1d9-4ae3-948c-f352a9f041ee",
+			"name": "path_to_file",
+			"filePath": "81d36148-0d35-4b05-b3ea-d3ecf376cc49.jpg",
+			"content": {
+				"automationType": "Uia",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"automationId": {
+								"value": "",
+								"excluded": true
+							},
+							"isPassword": {
+								"value": "False",
+								"excluded": true
+							},
+							"orientation": {
+								"value": "None",
+								"excluded": true
+							},
+							"role": {
+								"value": "pane"
+							},
+							"isDirectChild": {
+								"value": "True"
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Uia",
+							"name": {
+								"value": "Create new post • Instagram - Google Chrome"
+							},
+							"index": {
+								"value": "1",
+								"excluded": true
+							}
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"automationId": {
+										"value": "",
+										"excluded": true
+									},
+									"isPassword": {
+										"value": "False",
+										"excluded": true
+									},
+									"orientation": {
+										"value": "None",
+										"excluded": true
+									},
+									"role": {
+										"value": "window"
+									},
+									"isDirectChild": {
+										"value": "True"
+									},
+									"className": {
+										"value": "#32770"
+									},
+									"controlMetaType": "Uia",
+									"name": {
+										"value": "Open"
+									},
+									"index": {
+										"value": "1",
+										"excluded": true
+									}
+								},
+								"childControls": [
+									{
+										"identifier": {
+											"automationId": {
+												"value": "40965"
+											},
+											"isPassword": {
+												"value": "False",
+												"excluded": true
+											},
+											"orientation": {
+												"value": "None",
+												"excluded": true
+											},
+											"role": {
+												"value": "pane"
+											},
+											"isDirectChild": {
+												"value": "True"
+											},
+											"className": {
+												"value": "ReBarWindow32"
+											},
+											"controlMetaType": "Uia",
+											"index": {
+												"value": "1",
+												"excluded": true
+											}
+										},
+										"childControls": [
+											{
+												"identifier": {
+													"automationId": {
+														"value": "41477"
+													},
+													"isPassword": {
+														"value": "False",
+														"excluded": true
+													},
+													"orientation": {
+														"value": "None",
+														"excluded": true
+													},
+													"role": {
+														"value": "pane"
+													},
+													"isDirectChild": {
+														"value": "True"
+													},
+													"className": {
+														"value": "Address Band Root"
+													},
+													"controlMetaType": "Uia",
+													"index": {
+														"value": "1",
+														"excluded": true
+													}
+												},
+												"childControls": [
+													{
+														"identifier": {
+															"automationId": {
+																"value": "",
+																"excluded": true
+															},
+															"isPassword": {
+																"value": "False",
+																"excluded": true
+															},
+															"itemStatus": {
+																"value": "normal"
+															},
+															"orientation": {
+																"value": "None",
+																"excluded": true
+															},
+															"role": {
+																"value": "progressBar"
+															},
+															"isDirectChild": {
+																"value": "True"
+															},
+															"className": {
+																"value": "msctls_progress32"
+															},
+															"controlMetaType": "Uia",
+															"name": {
+																"value": "Loading"
+															},
+															"index": {
+																"value": "1",
+																"excluded": true
+															}
+														},
+														"childControls": [
+															{
+																"identifier": {
+																	"automationId": {
+																		"value": "",
+																		"excluded": true
+																	},
+																	"isPassword": {
+																		"value": "False",
+																		"excluded": true
+																	},
+																	"orientation": {
+																		"value": "None",
+																		"excluded": true
+																	},
+																	"role": {
+																		"value": "pane"
+																	},
+																	"isDirectChild": {
+																		"value": "True"
+																	},
+																	"className": {
+																		"value": "Breadcrumb Parent"
+																	},
+																	"controlMetaType": "Uia",
+																	"name": {
+																		"value": "",
+																		"excluded": true
+																	},
+																	"index": {
+																		"value": "1",
+																		"excluded": true
+																	}
+																},
+																"childControls": [
+																	{
+																		"identifier": {
+																			"automationId": {
+																				"value": "1001"
+																			},
+																			"isPassword": {
+																				"value": "False",
+																				"excluded": true
+																			},
+																			"orientation": {
+																				"value": "None",
+																				"excluded": true
+																			},
+																			"role": {
+																				"value": "toolBar"
+																			},
+																			"isDirectChild": {
+																				"value": "True"
+																			},
+																			"className": {
+																				"value": "ToolbarWindow32"
+																			},
+																			"controlMetaType": "Uia",
+																			"name": {
+																				"value": "Address: Documents",
+																				"excluded": true
+																			},
+																			"index": {
+																				"value": "1",
+																				"excluded": true
+																			}
+																		}
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "7fb427fc-3f79-4762-ac72-73f59f663541",
+			"name": "toolbar_address_documents",
+			"filePath": "d17eef0c-0893-4cd1-b989-41de2efe480d.jpg",
+			"content": {
+				"automationType": "Uia",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"automationId": {
+								"value": "",
+								"excluded": true
+							},
+							"isPassword": {
+								"value": "False",
+								"excluded": true
+							},
+							"orientation": {
+								"value": "None",
+								"excluded": true
+							},
+							"role": {
+								"value": "pane"
+							},
+							"isDirectChild": {
+								"value": "True"
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1",
+								"excluded": false
+							},
+							"controlMetaType": "Uia",
+							"name": {
+								"value": "TikTok Creator Center – Utilização de memória – 40,6 MB - Google Chrome",
+								"excluded": true
+							},
+							"index": {
+								"value": "1",
+								"excluded": true
+							}
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"automationId": {
+										"value": "",
+										"excluded": true
+									},
+									"isPassword": {
+										"value": "False",
+										"excluded": true
+									},
+									"orientation": {
+										"value": "None",
+										"excluded": true
+									},
+									"role": {
+										"value": "window"
+									},
+									"isDirectChild": {
+										"value": "True"
+									},
+									"className": {
+										"value": "#32770"
+									},
+									"controlMetaType": "Uia",
+									"name": {
+										"value": "Open"
+									},
+									"index": {
+										"value": "1",
+										"excluded": true
+									}
+								},
+								"childControls": [
+									{
+										"identifier": {
+											"automationId": {
+												"value": "40965"
+											},
+											"isPassword": {
+												"value": "False",
+												"excluded": true
+											},
+											"orientation": {
+												"value": "None",
+												"excluded": true
+											},
+											"role": {
+												"value": "pane"
+											},
+											"isDirectChild": {
+												"value": "True"
+											},
+											"className": {
+												"value": "ReBarWindow32"
+											},
+											"controlMetaType": "Uia",
+											"index": {
+												"value": "1",
+												"excluded": true
+											}
+										},
+										"childControls": [
+											{
+												"identifier": {
+													"automationId": {
+														"value": "41477"
+													},
+													"isPassword": {
+														"value": "False",
+														"excluded": true
+													},
+													"orientation": {
+														"value": "None",
+														"excluded": true
+													},
+													"role": {
+														"value": "pane"
+													},
+													"isDirectChild": {
+														"value": "True"
+													},
+													"className": {
+														"value": "Address Band Root"
+													},
+													"controlMetaType": "Uia",
+													"index": {
+														"value": "1",
+														"excluded": true
+													}
+												},
+												"childControls": [
+													{
+														"identifier": {
+															"automationId": {
+																"value": "",
+																"excluded": true
+															},
+															"isPassword": {
+																"value": "False",
+																"excluded": true
+															},
+															"itemStatus": {
+																"value": "normal"
+															},
+															"orientation": {
+																"value": "None",
+																"excluded": true
+															},
+															"role": {
+																"value": "progressBar"
+															},
+															"isDirectChild": {
+																"value": "True"
+															},
+															"className": {
+																"value": "msctls_progress32"
+															},
+															"controlMetaType": "Uia",
+															"name": {
+																"value": "Loading"
+															},
+															"index": {
+																"value": "1",
+																"excluded": true
+															}
+														},
+														"childControls": [
+															{
+																"identifier": {
+																	"automationId": {
+																		"value": "",
+																		"excluded": true
+																	},
+																	"isPassword": {
+																		"value": "False",
+																		"excluded": true
+																	},
+																	"orientation": {
+																		"value": "None",
+																		"excluded": true
+																	},
+																	"role": {
+																		"value": "pane"
+																	},
+																	"isDirectChild": {
+																		"value": "True"
+																	},
+																	"className": {
+																		"value": "Breadcrumb Parent"
+																	},
+																	"controlMetaType": "Uia",
+																	"name": {
+																		"value": "",
+																		"excluded": true
+																	},
+																	"index": {
+																		"value": "1",
+																		"excluded": true
+																	}
+																},
+																"childControls": [
+																	{
+																		"identifier": {
+																			"automationId": {
+																				"value": "1001"
+																			},
+																			"isPassword": {
+																				"value": "False",
+																				"excluded": true
+																			},
+																			"orientation": {
+																				"value": "None",
+																				"excluded": true
+																			},
+																			"role": {
+																				"value": "toolBar"
+																			},
+																			"isDirectChild": {
+																				"value": "True"
+																			},
+																			"className": {
+																				"value": "ToolbarWindow32"
+																			},
+																			"controlMetaType": "Uia",
+																			"name": {
+																				"value": "Address: C:\\Users\\andre\\Documents\\WeirdStuff\\TikTokUploder\\Video",
+																				"excluded": true
+																			},
+																			"index": {
+																				"value": "1",
+																				"excluded": true
+																			}
+																		},
+																		"childControls": [],
+																		"excluded": false
+																	}
+																],
+																"excluded": false
+															}
+														],
+														"excluded": false
+													}
+												],
+												"excluded": false
+											}
+										],
+										"excluded": false
+									}
+								],
+								"excluded": false
+							}
+						],
+						"excluded": false
+					}
+				],
+				"parameters": {
+					"excluded": true,
+					"operator": "equals",
+					"value": ""
+				}
+			}
+		},
+		{
+			"id": "69980eee-0b2b-4bb0-a5f1-90c8b812a063",
+			"name": "button_select_ratio",
+			"filePath": "0de3b1ba-7f94-4f37-8dc7-fc87107ea73a.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "Create new post • Instagram"
+							},
+							"url": {
+								"value": "https://www.instagram.com/",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "DIV"
+									},
+									"class": {
+										"value": "x9f619 xjbqb8w x78zum5 x168nmei x13lgxp2 x5pf9jr xo71vjh x1y1aw1*",
+										"excluded": true
+									},
+									"ancestorClass": {
+										"value": "_acan _acao _acas _aj1-"
+									},
+									"isLeaf": {
+										"value": "0",
+										"excluded": false
+									},
+									"cssSelector": {
+										"value": "body>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>button>div",
+										"excluded": false
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1"
+									}
+								},
+								"childControls": [],
+								"excluded": false
+							}
+						],
+						"excluded": false
+					}
+				],
+				"parameters": {
+					"excluded": true,
+					"operator": "equals",
+					"value": ""
+				}
+			}
+		},
+		{
+			"id": "268b4768-31b0-4cb7-8610-c2330e4eb427",
+			"name": "button_9_16_ratio",
+			"filePath": "5b7f43aa-d0d8-42df-848c-1ac5e0a39346.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "Create new post • Instagram"
+							},
+							"url": {
+								"value": "https://www.instagram.com/",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "DIV"
+									},
+									"class": {
+										"value": "x9f619 xjbqb8w x78zum5 x168nmei x13lgxp2 x5pf9jr xo71vjh x16n37i*",
+										"excluded": true
+									},
+									"ancestorClass": {
+										"value": "x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xa49m3k xqeqjp1 x2hbi6w x13fuv*"
+									},
+									"isLeaf": {
+										"value": "0",
+										"excluded": false
+									},
+									"cssSelector": {
+										"value": "body>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div>div",
+										"excluded": false
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "3"
+									}
+								},
+								"childControls": [],
+								"excluded": false
+							}
+						],
+						"excluded": false
+					}
+				],
+				"parameters": {
+					"excluded": true,
+					"operator": "equals",
+					"value": ""
+				}
+			}
+		}
+	]
+}

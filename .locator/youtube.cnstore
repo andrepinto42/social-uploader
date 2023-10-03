@@ -1,0 +1,1538 @@
+{
+	"id": "75293b57-2128-4a7a-a317-5cfe47bacb9f",
+	"name": "youtube",
+	"nodes": [],
+	"locators": [
+		{
+			"id": "ec4671df-ab18-4ce9-87ec-35c1a3ce24e9",
+			"name": "button_account",
+			"filePath": "008665e8-3ce2-4dd3-8792-07f194d195e3.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "Painel de controlo do canal - YouTube Studio",
+								"excluded": false
+							},
+							"url": {
+								"value": "https://studio.youtube.com/channel/UCnREUlRFIME8DHJGCzCODOg",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "BUTTON"
+									},
+									"id": {
+										"value": "avatar-btn",
+										"excluded": true
+									},
+									"class": {
+										"value": "style-scope ytd-topbar-menu-button-renderer",
+										"excluded": true
+									},
+									"ancestorId": {
+										"value": "account-button",
+										"excluded": true
+									},
+									"ancestorClass": {
+										"value": "avatar style-scope ytcp-header",
+										"excluded": true
+									},
+									"isLeaf": {
+										"value": "0",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>ytcp-app>ytcp-entity-page>div>ytcp-header>header>div>ytd-topbar-menu-button-renderer>button",
+										"excluded": true
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									},
+									"aria-haspopup": {
+										"isCustom": true,
+										"value": "true",
+										"operator": "equals",
+										"excluded": true
+									},
+									"aria-label": {
+										"isCustom": true,
+										"value": "Account",
+										"operator": "equals",
+										"excluded": true
+									}
+								},
+								"childControls": [],
+								"excluded": false
+							}
+						],
+						"excluded": false
+					}
+				],
+				"parameters": {
+					"excluded": true,
+					"operator": "equals",
+					"value": ""
+				}
+			}
+		},
+		{
+			"id": "eefeb544-efe4-46e3-b646-a8082376eac1",
+			"name": "button_change_account",
+			"filePath": "f3b3bbc7-469f-4fe5-bef3-ad781660f5ef.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "Painel de controlo do canal - YouTube Studio"
+							},
+							"url": {
+								"value": "https://studio.youtube.com/channel/UCnREUlRFIME8DHJGCzCODOg",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "TP-YT-PAPER-ITEM"
+									},
+									"class": {
+										"value": "style-scope ytd-compact-link-renderer",
+										"excluded": true
+									},
+									"ancestorId": {
+										"value": "endpoint",
+										"excluded": true
+									},
+									"ancestorClass": {
+										"value": "yt-simple-endpoint style-scope ytd-compact-link-renderer",
+										"excluded": true
+									},
+									"isLeaf": {
+										"value": "0",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>ytcp-app>ytcp-popup-container>tp-yt-iron-dropdown>div>ytd-multi-page-menu-renderer>div>div>yt-multi-page-menu-section-renderer>div>ytd-compact-link-renderer>a>tp-yt-paper-item",
+										"excluded": true
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tabIndex": {
+										"value": "0",
+										"excluded": true
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "3"
+									},
+									"role": {
+										"isCustom": true,
+										"value": "link",
+										"operator": "equals",
+										"excluded": true
+									},
+									"style-target": {
+										"isCustom": true,
+										"value": "host",
+										"operator": "equals",
+										"excluded": true
+									},
+									"aria-disabled": {
+										"isCustom": true,
+										"value": "false",
+										"operator": "equals",
+										"excluded": true
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "eb2fa7a1-ba9c-47f3-b23c-352c8c10d1ce",
+			"name": "button_k7_account",
+			"filePath": "3eda19e6-9a9a-4b7d-b67f-497e229692b9.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "Painel de controlo do canal - YouTube Studio"
+							},
+							"url": {
+								"value": "https://studio.youtube.com/channel/UCnREUlRFIME8DHJGCzCODOg",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "YT-FORMATTED-STRING"
+									},
+									"id": {
+										"value": "channel-title"
+									},
+									"class": {
+										"value": "style-scope ytd-account-item-renderer",
+										"excluded": true
+									},
+									"ancestorId": {
+										"value": "contents",
+										"excluded": true
+									},
+									"ancestorClass": {
+										"value": "style-scope ytd-account-item-renderer",
+										"excluded": true
+									},
+									"isLeaf": {
+										"value": "1",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>ytcp-app>ytcp-popup-container>tp-yt-iron-dropdown>div>ytd-multi-page-menu-renderer>div>ytd-multi-page-menu-renderer>div>div>ytd-account-section-list-renderer>div>ytd-account-item-section-renderer>div>ytd-account-item-renderer>tp-yt-paper-icon-item>tp-yt-paper-item-body>yt-formatted-string",
+										"excluded": true
+									},
+									"sInfo": {
+										"value": "K7 Studio",
+										"excluded": true
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "4"
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "09ba03e7-f4fe-4ba5-8df5-0fbda139134b",
+			"name": "button_create",
+			"filePath": "123dc521-0e87-4bc7-9938-623bc5b4bc3f.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "Painel de controlo do canal - YouTube Studio"
+							},
+							"url": {
+								"value": "https://studio.youtube.com/channel/UC1lIRdpCcy-dgm8596reFTw",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "DIV"
+									},
+									"class": {
+										"value": "label style-scope ytcp-button",
+										"excluded": true
+									},
+									"ancestorId": {
+										"value": "create-icon"
+									},
+									"ancestorClass": {
+										"value": "style-scope ytcp-header",
+										"excluded": true
+									},
+									"isLeaf": {
+										"value": "1",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>ytcp-app>ytcp-entity-page>div>ytcp-header>header>div>ytcp-button>div",
+										"excluded": true
+									},
+									"sInfo": {
+										"value": "Criar"
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "d416cb71-9191-4428-aacf-0e12d5d106f2",
+			"name": "button_load_videos",
+			"filePath": "bc8f66a5-aa9f-4ea1-945a-57bd5c9616d1.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "Painel de controlo do canal - YouTube Studio"
+							},
+							"url": {
+								"value": "https://studio.youtube.com/channel/UC1lIRdpCcy-dgm8596reFTw",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "YT-FORMATTED-STRING"
+									},
+									"class": {
+										"value": "item-text main-text style-scope ytcp-text-menu",
+										"excluded": true
+									},
+									"ancestorId": {
+										"value": "text-item-0"
+									},
+									"ancestorClass": {
+										"value": "text-content  style-scope ytcp-text-menu style-scope ytcp-text-menu",
+										"excluded": true
+									},
+									"isLeaf": {
+										"value": "1",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>ytcp-app>ytcp-entity-page>div>ytcp-header>header>div>ytcp-text-menu>tp-yt-paper-dialog>tp-yt-paper-listbox>tp-yt-paper-item>ytcp-ve>tp-yt-paper-item-body>div>div>div>yt-formatted-string",
+										"excluded": true
+									},
+									"sInfo": {
+										"value": "Carregar vídeos",
+										"excluded": true
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "b31c4fa9-348d-4ad7-8fee-6b79506db1d6",
+			"name": "button_next_button",
+			"filePath": "8cc474d5-1bc5-4cc5-b5d1-fe43d34a66f0.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "Painel de controlo do canal - YouTube Studio"
+							},
+							"url": {
+								"value": "https://studio.youtube.com/channel/UC1lIRdpCcy-dgm8596reFTw",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "YTCP-BUTTON"
+									},
+									"id": {
+										"value": "next-button"
+									},
+									"class": {
+										"value": "style-scope ytcp-uploads-dialog",
+										"excluded": true
+									},
+									"type": {
+										"value": "filled",
+										"excluded": true
+									},
+									"ancestorId": {
+										"value": "dialog",
+										"excluded": true
+									},
+									"ancestorClass": {
+										"value": "right-button-area style-scope ytcp-uploads-dialog",
+										"excluded": true
+									},
+									"isLeaf": {
+										"value": "0",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>ytcp-uploads-dialog>tp-yt-paper-dialog>div>ytcp-animatable>div>div>ytcp-button",
+										"excluded": true
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tabIndex": {
+										"value": "0",
+										"excluded": true
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									},
+									"label": {
+										"isCustom": true,
+										"value": "Seguinte",
+										"operator": "equals",
+										"excluded": true
+									},
+									"icon-alignment": {
+										"isCustom": true,
+										"value": "start",
+										"operator": "equals",
+										"excluded": true
+									},
+									"aria-disabled": {
+										"isCustom": true,
+										"value": "false",
+										"operator": "equals",
+										"excluded": true
+									},
+									"role": {
+										"isCustom": true,
+										"value": "button",
+										"operator": "equals",
+										"excluded": true
+									},
+									"aria-describedby": {
+										"isCustom": true,
+										"value": "goog_353759146",
+										"operator": "equals",
+										"excluded": true
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "3da0349e-49e2-45e8-b4af-88e065eb140f",
+			"name": "button_next_button1",
+			"filePath": "b8817c21-c7eb-4abf-96d3-57c6b771d96a.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "Painel de controlo do canal - YouTube Studio"
+							},
+							"url": {
+								"value": "https://studio.youtube.com/channel/UC1lIRdpCcy-dgm8596reFTw",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "YTCP-BUTTON"
+									},
+									"id": {
+										"value": "next-button"
+									},
+									"class": {
+										"value": "style-scope ytcp-uploads-dialog",
+										"excluded": true
+									},
+									"type": {
+										"value": "filled",
+										"excluded": true
+									},
+									"ancestorId": {
+										"value": "dialog",
+										"excluded": true
+									},
+									"ancestorClass": {
+										"value": "right-button-area style-scope ytcp-uploads-dialog",
+										"excluded": true
+									},
+									"isLeaf": {
+										"value": "0",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>ytcp-uploads-dialog>tp-yt-paper-dialog>div>ytcp-animatable>div>div>ytcp-button",
+										"excluded": true
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tabIndex": {
+										"value": "0",
+										"excluded": true
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									},
+									"label": {
+										"isCustom": true,
+										"value": "Seguinte",
+										"operator": "equals",
+										"excluded": true
+									},
+									"icon-alignment": {
+										"isCustom": true,
+										"value": "start",
+										"operator": "equals",
+										"excluded": true
+									},
+									"aria-disabled": {
+										"isCustom": true,
+										"value": "false",
+										"operator": "equals",
+										"excluded": true
+									},
+									"role": {
+										"isCustom": true,
+										"value": "button",
+										"operator": "equals",
+										"excluded": true
+									},
+									"aria-describedby": {
+										"isCustom": true,
+										"value": "goog_353759147",
+										"operator": "equals",
+										"excluded": true
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "fc6a7092-cbbe-4810-b9b5-64d46f164357",
+			"name": "button_next_button2",
+			"filePath": "2345e0a4-61f4-469d-a516-9f1b0b010f11.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "Painel de controlo do canal - YouTube Studio"
+							},
+							"url": {
+								"value": "https://studio.youtube.com/channel/UC1lIRdpCcy-dgm8596reFTw",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "YTCP-BUTTON"
+									},
+									"id": {
+										"value": "next-button"
+									},
+									"class": {
+										"value": "style-scope ytcp-uploads-dialog",
+										"excluded": true
+									},
+									"type": {
+										"value": "filled",
+										"excluded": true
+									},
+									"ancestorId": {
+										"value": "dialog",
+										"excluded": true
+									},
+									"ancestorClass": {
+										"value": "right-button-area style-scope ytcp-uploads-dialog",
+										"excluded": true
+									},
+									"isLeaf": {
+										"value": "0",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>ytcp-uploads-dialog>tp-yt-paper-dialog>div>ytcp-animatable>div>div>ytcp-button",
+										"excluded": true
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tabIndex": {
+										"value": "0",
+										"excluded": true
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									},
+									"label": {
+										"isCustom": true,
+										"value": "Seguinte",
+										"operator": "equals",
+										"excluded": true
+									},
+									"icon-alignment": {
+										"isCustom": true,
+										"value": "start",
+										"operator": "equals",
+										"excluded": true
+									},
+									"aria-disabled": {
+										"isCustom": true,
+										"value": "false",
+										"operator": "equals",
+										"excluded": true
+									},
+									"role": {
+										"isCustom": true,
+										"value": "button",
+										"operator": "equals",
+										"excluded": true
+									},
+									"aria-describedby": {
+										"isCustom": true,
+										"value": "goog_353759147",
+										"operator": "equals",
+										"excluded": true
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "0eab7e74-100e-412d-b980-a3faa8d55520",
+			"name": "button_not_for_children",
+			"filePath": "094f0a93-c785-4434-97b6-022410f4fc89.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "Painel de controlo do canal - YouTube Studio"
+							},
+							"url": {
+								"value": "https://studio.youtube.com/channel/UC1lIRdpCcy-dgm8596reFTw",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "DIV"
+									},
+									"id": {
+										"value": "offRadio"
+									},
+									"class": {
+										"value": "style-scope tp-yt-paper-radio-button",
+										"excluded": true
+									},
+									"ancestorId": {
+										"value": "radioContainer",
+										"excluded": true
+									},
+									"ancestorName": {
+										"value": "VIDEO_MADE_FOR_KIDS_NOT_MFK"
+									},
+									"ancestorClass": {
+										"value": "style-scope tp-yt-paper-radio-button",
+										"excluded": true
+									},
+									"isLeaf": {
+										"value": "1",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>ytcp-uploads-dialog>tp-yt-paper-dialog>div>ytcp-animatable>ytcp-ve>ytcp-video-metadata-editor>div>ytcp-video-metadata-editor-basics>div>ytkc-made-for-kids-select>div>tp-yt-paper-radio-group>tp-yt-paper-radio-button>div>div",
+										"excluded": true
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "9864b234-e1f7-4186-ab25-7fde96fd6ef4",
+			"name": "button_publish",
+			"filePath": "d6bb65e0-0012-4fa8-8796-98b930b3c630.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "Painel de controlo do canal - YouTube Studio"
+							},
+							"url": {
+								"value": "https://studio.youtube.com/channel/UC1lIRdpCcy-dgm8596reFTw",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "YTCP-BUTTON"
+									},
+									"id": {
+										"value": "done-button"
+									},
+									"class": {
+										"value": "style-scope ytcp-uploads-dialog",
+										"excluded": true
+									},
+									"type": {
+										"value": "filled",
+										"excluded": true
+									},
+									"ancestorId": {
+										"value": "dialog",
+										"excluded": true
+									},
+									"ancestorClass": {
+										"value": "right-button-area style-scope ytcp-uploads-dialog",
+										"excluded": true
+									},
+									"isLeaf": {
+										"value": "0",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>ytcp-uploads-dialog>tp-yt-paper-dialog>div>ytcp-animatable>div>div>ytcp-button",
+										"excluded": true
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tabIndex": {
+										"value": "0",
+										"excluded": true
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									},
+									"icon-alignment": {
+										"isCustom": true,
+										"value": "start",
+										"operator": "equals",
+										"excluded": true
+									},
+									"aria-disabled": {
+										"isCustom": true,
+										"value": "false",
+										"operator": "equals",
+										"excluded": true
+									},
+									"role": {
+										"isCustom": true,
+										"value": "button",
+										"operator": "equals",
+										"excluded": true
+									},
+									"aria-describedby": {
+										"isCustom": true,
+										"value": "goog_353759159",
+										"operator": "equals",
+										"excluded": true
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "96c575d3-1aea-4d19-8e2c-22d501d52301",
+			"name": "button_select_files_button",
+			"filePath": "299f0fdf-c04a-4c64-b05b-14e816392049.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "Painel de controlo do canal - YouTube Studio"
+							},
+							"url": {
+								"value": "https://studio.youtube.com/channel/UC1lIRdpCcy-dgm8596reFTw",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "YTCP-BUTTON"
+									},
+									"id": {
+										"value": "select-files-button"
+									},
+									"class": {
+										"value": "style-scope ytcp-uploads-file-picker",
+										"excluded": true
+									},
+									"type": {
+										"value": "filled",
+										"excluded": true
+									},
+									"ancestorId": {
+										"value": "content",
+										"excluded": true
+									},
+									"ancestorClass": {
+										"value": "style-scope ytcp-uploads-file-picker",
+										"excluded": true
+									},
+									"isLeaf": {
+										"value": "0",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>ytcp-uploads-dialog>tp-yt-paper-dialog>div>ytcp-uploads-file-picker>div>ytcp-button",
+										"excluded": true
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tabIndex": {
+										"value": "0",
+										"excluded": true
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									},
+									"icon-alignment": {
+										"isCustom": true,
+										"value": "start",
+										"operator": "equals",
+										"excluded": true
+									},
+									"aria-disabled": {
+										"isCustom": true,
+										"value": "false",
+										"operator": "equals",
+										"excluded": true
+									},
+									"role": {
+										"isCustom": true,
+										"value": "button",
+										"operator": "equals",
+										"excluded": true
+									},
+									"aria-describedby": {
+										"isCustom": true,
+										"value": "goog_353759124",
+										"operator": "equals",
+										"excluded": true
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "d2746006-f3c8-4920-9995-beebb5a19803",
+			"name": "div_description",
+			"filePath": "d05a5d03-b210-4ae8-b147-f429632be215.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "Painel de controlo do canal - YouTube Studio"
+							},
+							"url": {
+								"value": "https://studio.youtube.com/channel/UC1lIRdpCcy-dgm8596reFTw",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "DIV"
+									},
+									"id": {
+										"value": "textbox"
+									},
+									"class": {
+										"value": "style-scope ytcp-social-suggestions-textbox",
+										"excluded": true
+									},
+									"ancestorId": {
+										"value": "input",
+										"excluded": true
+									},
+									"ancestorClass": {
+										"value": "fill-height style-scope ytcp-social-suggestions-textbox",
+										"excluded": true
+									},
+									"isLeaf": {
+										"value": "1",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>ytcp-uploads-dialog>tp-yt-paper-dialog>div>ytcp-animatable>ytcp-ve>ytcp-video-metadata-editor>div>ytcp-video-metadata-editor-basics>div>ytcp-video-description>div>ytcp-social-suggestions-textbox>ytcp-form-input-container>div>div>div>ytcp-social-suggestion-input>div"
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									},
+									"slot": {
+										"isCustom": true,
+										"value": "input",
+										"operator": "equals",
+										"excluded": true
+									},
+									"contenteditable": {
+										"isCustom": true,
+										"value": "true",
+										"operator": "equals",
+										"excluded": true
+									},
+									"aria-required": {
+										"isCustom": true,
+										"value": "false",
+										"operator": "equals",
+										"excluded": true
+									},
+									"aria-label": {
+										"isCustom": true,
+										"value": "Fale do seu vídeo aos visitantes (escreva @ para mencionar um canal)",
+										"operator": "equals",
+										"excluded": true
+									},
+									"aria-invalid": {
+										"isCustom": true,
+										"value": "false",
+										"operator": "equals",
+										"excluded": true
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "28410481-1a10-4eb5-9838-337a9e509d5d",
+			"name": "div_public",
+			"filePath": "a6aa816f-da76-479f-a72e-fc6670109d5e.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "Painel de controlo do canal - YouTube Studio"
+							},
+							"url": {
+								"value": "https://studio.youtube.com/channel/UC1lIRdpCcy-dgm8596reFTw",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "DIV"
+									},
+									"id": {
+										"value": "offRadio"
+									},
+									"class": {
+										"value": "style-scope tp-yt-paper-radio-button",
+										"excluded": true
+									},
+									"ancestorId": {
+										"value": "radioContainer",
+										"excluded": true
+									},
+									"ancestorName": {
+										"value": "PUBLIC"
+									},
+									"ancestorClass": {
+										"value": "style-scope tp-yt-paper-radio-button",
+										"excluded": true
+									},
+									"isLeaf": {
+										"value": "1",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>ytcp-uploads-dialog>tp-yt-paper-dialog>div>ytcp-animatable>ytcp-uploads-review>div>div>ytcp-video-visibility-select>div>tp-yt-paper-radio-group>tp-yt-paper-radio-button>div>div",
+										"excluded": true
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "8bad04c3-689b-4efc-8062-6b53a8bbbaa1",
+			"name": "div_title",
+			"filePath": "59db751e-56f3-4d44-8cf4-e48a89457de2.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "Painel de controlo do canal - YouTube Studio"
+							},
+							"url": {
+								"value": "https://studio.youtube.com/channel/UC1lIRdpCcy-dgm8596reFTw",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "DIV"
+									},
+									"id": {
+										"value": "textbox"
+									},
+									"class": {
+										"value": "style-scope ytcp-social-suggestions-textbox",
+										"excluded": true
+									},
+									"ancestorId": {
+										"value": "input",
+										"excluded": true
+									},
+									"ancestorClass": {
+										"value": "fill-height style-scope ytcp-social-suggestions-textbox",
+										"excluded": true
+									},
+									"isLeaf": {
+										"value": "1",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>ytcp-uploads-dialog>tp-yt-paper-dialog>div>ytcp-animatable>ytcp-ve>ytcp-video-metadata-editor>div>ytcp-video-metadata-editor-basics>div>ytcp-video-title>ytcp-social-suggestions-textbox>ytcp-form-input-container>div>div>div>ytcp-social-suggestion-input>div",
+										"excluded": true
+									},
+									"sInfo": {
+										"value": "animation",
+										"excluded": true
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									},
+									"slot": {
+										"isCustom": true,
+										"value": "input",
+										"operator": "equals",
+										"excluded": true
+									},
+									"contenteditable": {
+										"isCustom": true,
+										"value": "true",
+										"operator": "equals",
+										"excluded": true
+									},
+									"aria-required": {
+										"isCustom": true,
+										"value": "true",
+										"operator": "equals",
+										"excluded": true
+									},
+									"aria-label": {
+										"isCustom": true,
+										"value": "Adicione um título que descreva o seu vídeo (escreva @ para mencionar um canal)",
+										"operator": "equals",
+										"excluded": true
+									},
+									"aria-invalid": {
+										"isCustom": true,
+										"value": "false",
+										"operator": "equals",
+										"excluded": true
+									}
+								},
+								"childControls": [],
+								"excluded": false
+							}
+						],
+						"excluded": false
+					}
+				],
+				"parameters": {
+					"excluded": true,
+					"operator": "equals",
+					"value": ""
+				}
+			}
+		},
+		{
+			"id": "7b609f97-e06a-48b4-89a3-5972de4a405b",
+			"name": "text_channel_name",
+			"filePath": "61e82ab6-8ff3-41ac-ac24-d5fa77785666.jpg",
+			"content": {
+				"automationType": "Chrome",
+				"processName": {
+					"value": "chrome"
+				},
+				"filePath": {
+					"value": "chrome.exe"
+				},
+				"version": {
+					"value": "1.3"
+				},
+				"childControls": [
+					{
+						"identifier": {
+							"role": {
+								"value": "window"
+							},
+							"title": {
+								"value": "Painel de controlo do canal - YouTube Studio"
+							},
+							"url": {
+								"value": "https://studio.youtube.com/channel/UCnREUlRFIME8DHJGCzCODOg",
+								"excluded": true
+							},
+							"className": {
+								"value": "Chrome_WidgetWin_1"
+							},
+							"controlMetaType": "Tab"
+						},
+						"childControls": [
+							{
+								"identifier": {
+									"tag": {
+										"value": "DIV"
+									},
+									"id": {
+										"value": "entity-name"
+									},
+									"class": {
+										"value": "entity-name style-scope ytcp-navigation-drawer",
+										"excluded": true
+									},
+									"ancestorId": {
+										"value": "entity-label-container",
+										"excluded": true
+									},
+									"ancestorClass": {
+										"value": "style-scope ytcp-navigation-drawer",
+										"excluded": true
+									},
+									"isLeaf": {
+										"value": "0",
+										"excluded": true
+									},
+									"cssSelector": {
+										"value": "body>ytcp-app>ytcp-entity-page>div>div>ytcp-navigation-drawer>nav>div>ytcp-animatable>div>div",
+										"excluded": true
+									},
+									"sInfo": {
+										"value": "Noscope OWL",
+										"excluded": true
+									},
+									"tableRow": {
+										"value": "-1",
+										"excluded": true
+									},
+									"tableCol": {
+										"value": "-1",
+										"excluded": true
+									},
+									"controlMetaType": "Web",
+									"index": {
+										"value": "1",
+										"excluded": true
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		}
+	]
+}
