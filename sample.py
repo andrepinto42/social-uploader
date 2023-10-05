@@ -3,6 +3,7 @@ import sys
 from time import sleep
 from clicknium import clicknium as cc, locator, ui
 from clicknium.core.models.web.webelement import WebElement
+import pyperclip
 
 isSharing = True
 myYoutubeChannel = "K7 Studio"
@@ -52,10 +53,14 @@ def  ChooseFileToUpload(path: str,file: str):
     cc.send_hotkey('{ENTER}')
 
 def ClearTextAndInsert(tab,locator_f,text):
+    #Send text to clipboard
+    pyperclip.copy(text)
     tab.find_element(locator_f).click(by="mouse-emulation")
     cc.send_hotkey('^a')
     cc.send_hotkey('{BACKSPACE}')
-    cc.send_text(text)
+    # Paste text from clipboard
+    cc.send_hotkey('^v')
+    # cc.send_text(text)
 
 ########################
 #### Main Functions ####
@@ -105,8 +110,21 @@ def Upload_TikTok(file_path: str,description: str):
         #It's not empty, therefore the video has sucessfully loaded
         if (description_found != ""):
             break
+            
+    # Edit the video, add a new sound to it but set it to 0
+    # That way the video may get more videos because of it's association to a music
+    tab.find_element(locator.tiktok.button_edit_video).click()
+    tab.find_element(locator.tiktok.text_music_author).click(by='mouse-emulation')
+    tab.find_element(locator.tiktok.button_use_video).click(by='mouse-emulation')
+    tab.find_element(locator.tiktok.button_choose_split_audio).click(by='mouse-emulation')
+    tab.find_element(locator.tiktok.range_new_audio).drag_drop(xpoint=-100)
+    tab.find_element(locator.tiktok.range_old_audio).drag_drop(xpoint=100)
+    tab.find_element(locator.tiktok.button_save_edit).click(by='mouse-emulation')
+    sleep(1)
 
     ClearTextAndInsert(tab,locator.tiktok.caption,description)
+    
+    # tab.find_element(locator.tiktok.button_save_edit).click()
     #Share it
     if (isSharing):
         cc.mouse.scroll(-10)
@@ -144,7 +162,11 @@ def Upload_Insta(file_path: str,description: str):
     #Click next
     tab.find_element(locator.instagram.button_next).click(by='mouse-emulation')
     tab.find_element(locator.instagram.button_next1).click(by='mouse-emulation')
-    tab.find_element(locator.instagram.my_caption).set_text(description,'sendkey-after-click')
+    tab.find_element(locator.instagram.my_caption).click(by='mouse-emulation')
+    pyperclip.copy(description)
+    cc.send_hotkey('^v')
+
+    
     
     
     #Share it
@@ -159,6 +181,7 @@ def Upload():
     flag_youtube = False
     flag_insta = False
     flag_tiktok = False
+    global isSharing
     if (args_normal[0] == '-'):
         for arg in args_normal:
             if (arg == 'y'):
@@ -167,6 +190,9 @@ def Upload():
                 flag_insta = True
             elif (arg == 't'):
                 flag_tiktok = True
+            # Make it possible to not share, just for debug purposes
+            elif (arg == 's'):
+                isSharing = False
         
     file_path = sys.argv[2]
     title = sys.argv[3]
@@ -175,7 +201,8 @@ def Upload():
         description = ""
     else:
         description = sys.argv[4]
-    print(f"Received arguments|Flags -> Youtube -> {flag_youtube} Insta -> {flag_insta} TikTok -> {flag_tiktok} |\
+    print(f"Received arguments|IsSharing -> {isSharing} | \
+          \n|Flags -> Youtube -> {flag_youtube} | Insta -> {flag_insta} | TikTok -> {flag_tiktok} |\
           \n Path ->  {file_path} | Title -> {title} | description -> {description}")
     full_description = title + "\n" + description
 
@@ -189,7 +216,9 @@ def Upload():
 def main():
     Upload()
 
-
-
+# Run with these parameters
+# C:\Users\andre\AppData\Local\Programs\Python\Python310\python.exe .\sample.py -yit 
+# "E:\Videos\Output\fearghumi_walking.mp4" "Look at the newest addition to the my game!!"
+# "#pokemon #3dgames #gamedev #gamedevelopment #unity #gaming #gamingvideos #gamingcommunity #solo #journey #ai #aiart #pokemoncompany  #pokemon #gamingPC #fun #gamedev #gamefreak #cod #fornite #amongus" 
 if __name__ == "__main__":
     main()
