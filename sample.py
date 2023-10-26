@@ -45,12 +45,26 @@ def GetPathAndFile(file_path: str):
     return (file_path[:-len(file)],file)
 
 
-def  ChooseFileToUpload(path: str,file: str):
+def  ChooseFileToUpload(tab,path: str,file: str):
     #Opens a new tab, select the filename and write the path of the file
-    cc.find_element(locator.instagram.edit_file_name).set_text(path,'sendkey-after-click')
+    # ClearTextAndInsert(tab,locator.instagram.edit_file_name,path)
+    cc.find_element(locator.instagram.edit_file_name).click(by='mouse-emulation')
+    my_send_text(path)
     cc.send_hotkey('{ENTER}')
+    # ClearTextAndInsert(tab,locator.instagram.edit_file_name,file)
     cc.find_element(locator.instagram.edit_file_name).set_text(file,'sendkey-after-click')
+    my_send_text(file)
     cc.send_hotkey('{ENTER}')
+
+
+def my_send_text(text):
+    pyperclip.copy(text)
+    cc.send_hotkey('^a')
+    cc.send_hotkey('{BACKSPACE}')
+    cc.send_hotkey('^v')
+
+
+
 
 def ClearTextAndInsert(tab,locator_f,text):
     #Send text to clipboard
@@ -77,18 +91,20 @@ def Upload_Youtube(file_path: str,title: str,description: str):
     tab.find_element(locator.youtube.button_create).click()
     tab.find_element(locator.youtube.button_load_videos).click()
     tab.find_element(locator.youtube.button_select_files_button).click(by='mouse-emulation')
-    ChooseFileToUpload(path,file)
+    ChooseFileToUpload(tab,path,file)
     #Swap the content of the variable
     ClearTextAndInsert(tab,locator.youtube.div_title,title)
-    tab.find_element(locator.youtube.div_description).click(by="mouse-emulation")
-    cc.send_text(description)
-    tab.find_element(locator.youtube.button_not_for_children).click()
-    tab.find_element(locator.youtube.button_next_button).click()
-    tab.find_element(locator.youtube.button_next_button1).click()
-    tab.find_element(locator.youtube.button_next_button2).click()
-    tab.find_element(locator.youtube.div_public).click()
+    ClearTextAndInsert(tab,locator.youtube.div_description,description)
+
+    # tab.find_element(locator.youtube.div_description).click(by="mouse-emulation")
+    # cc.send_text(description)
+    tab.find_element(locator.youtube.button_not_for_children).click(by='mouse-emulation')
+    tab.find_element(locator.youtube.button_next_button).click(by='mouse-emulation')
+    tab.find_element(locator.youtube.button_next_button1).click(by='mouse-emulation')
+    tab.find_element(locator.youtube.button_next_button2).click(by='mouse-emulation')
+    tab.find_element(locator.youtube.div_public).click(by='mouse-emulation')
     if (isSharing):
-        tab.find_element(locator.youtube.button_publish).click()
+        tab.find_element(locator.youtube.button_publish).click(by='mouse-emulation')
         print("Uploaded to youtube with sucess!")
 
 
@@ -101,7 +117,7 @@ def Upload_TikTok(file_path: str,description: str):
     tab = GetTab("tiktok.com/creator-center/upload?from=upload")
     tab.find_element(locator.tiktok.button_select_file).click()
     #Choose the correct file
-    ChooseFileToUpload(path,file)
+    ChooseFileToUpload(tab,path,file)
     #Wait 30s for the video to fully load...
     for i in range(30):
         description_found = tab.find_element(locator.tiktok.caption).get_text()
@@ -113,7 +129,7 @@ def Upload_TikTok(file_path: str,description: str):
             
     # Edit the video, add a new sound to it but set it to 0
     # That way the video may get more videos because of it's association to a music
-    tab.find_element(locator.tiktok.button_edit_video).click()
+    tab.find_element(locator.tiktok.button_edit_video).click(by='mouse-emulation')
     tab.find_element(locator.tiktok.text_music_author).click(by='mouse-emulation')
     tab.find_element(locator.tiktok.button_use_video).click(by='mouse-emulation')
     tab.find_element(locator.tiktok.button_choose_split_audio).click(by='mouse-emulation')
@@ -149,11 +165,11 @@ def Upload_Insta(file_path: str,description: str):
         Swap_AccountInsta(tab)
 
     #Click on create post
-    tab.find_element(locator.instagram.create_post).click()
-    tab.find_element(locator.instagram.button_select_from_computer).click()
+    tab.find_element(locator.instagram.create_post).click(by='mouse-emulation')
+    tab.find_element(locator.instagram.button_select_from_computer).click(by='mouse-emulation')
     
     #Choose the correct file
-    ChooseFileToUpload(path,file)
+    ChooseFileToUpload(tab,path,file)
 
     #Click on ratio and select the crop size
     tab.find_element(locator.instagram.button_select_ratio).click(by='mouse-emulation')
@@ -162,10 +178,11 @@ def Upload_Insta(file_path: str,description: str):
     #Click next
     tab.find_element(locator.instagram.button_next).click(by='mouse-emulation')
     tab.find_element(locator.instagram.button_next1).click(by='mouse-emulation')
+    sleep(0.5)
     tab.find_element(locator.instagram.my_caption).click(by='mouse-emulation')
     pyperclip.copy(description)
     cc.send_hotkey('^v')
-
+    sleep(1)
     
     
     

@@ -925,7 +925,8 @@
 												"excluded": true
 											},
 											"ancestorId": {
-												"value": "tux-11-panel-discover"
+												"value": "panel-discover",
+												"operator": "endWith"
 											},
 											"ancestorClass": {
 												"value": "jsx-2837068234 music-card-operation",
@@ -956,13 +957,22 @@
 												"value": "1",
 												"excluded": true
 											}
-										}
+										},
+										"childControls": [],
+										"excluded": false
 									}
-								]
+								],
+								"excluded": false
 							}
-						]
+						],
+						"excluded": false
 					}
-				]
+				],
+				"parameters": {
+					"excluded": true,
+					"operator": "equals",
+					"value": ""
+				}
 			}
 		},
 		{
@@ -1661,7 +1671,8 @@
 												"operator": "endWith"
 											},
 											"ancestorId": {
-												"value": "tux-11-panel-discover"
+												"value": "panel-discover",
+												"operator": "endWith"
 											},
 											"ancestorClass": {
 												"value": "jsx-1685834477 margin-top-14",
