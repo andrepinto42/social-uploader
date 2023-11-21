@@ -104,6 +104,8 @@ def Upload_Youtube(file_path: str,title: str,description: str):
     tab.find_element(locator.youtube.button_next_button2).click(by='mouse-emulation')
     tab.find_element(locator.youtube.div_public).click(by='mouse-emulation')
     if (isSharing):
+        # Needs to sleep a bit because youtube can't keep up with the fast clicks
+        sleep(2)
         tab.find_element(locator.youtube.button_publish).click(by='mouse-emulation')
         print("Uploaded to youtube with sucess!")
 
@@ -166,6 +168,7 @@ def Upload_Insta(file_path: str,description: str):
 
     #Click on create post
     tab.find_element(locator.instagram.create_post).click(by='mouse-emulation')
+    tab.find_element(locator.instagram.button_post_after_create).click(by='mouse-emulation')
     tab.find_element(locator.instagram.button_select_from_computer).click(by='mouse-emulation')
     
     #Choose the correct file
