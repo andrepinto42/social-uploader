@@ -4,6 +4,7 @@ from time import sleep
 from clicknium import clicknium as cc, locator, ui
 from clicknium.core.models.web.webelement import WebElement
 import pyperclip
+import os
 
 isSharing = True
 myYoutubeChannel = "K7 Studio"
@@ -85,6 +86,7 @@ def Upload_Youtube(file_path: str,title: str,description: str):
     tab = GetTab("studio.youtube.com/")
     channel_name = tab.find_element(locator.youtube.text_channel_name).get_text().strip("\n ")
     print("Channel name found -> ",channel_name)
+
     if (channel_name != myYoutubeChannel):
         SwapYoutubeChannel(tab)
 
@@ -132,7 +134,9 @@ def Upload_TikTok(file_path: str,description: str):
     # Edit the video, add a new sound to it but set it to 0
     # That way the video may get more videos because of it's association to a music
     tab.find_element(locator.tiktok.button_edit_video).click(by='mouse-emulation')
+    sleep(0.5)
     tab.find_element(locator.tiktok.text_music_author).click(by='mouse-emulation')
+    sleep(0.5)
     tab.find_element(locator.tiktok.button_use_video).click(by='mouse-emulation')
     tab.find_element(locator.tiktok.button_choose_split_audio).click(by='mouse-emulation')
     tab.find_element(locator.tiktok.range_new_audio).drag_drop(xpoint=-100)
@@ -181,7 +185,7 @@ def Upload_Insta(file_path: str,description: str):
     #Click next
     tab.find_element(locator.instagram.button_next).click(by='mouse-emulation')
     tab.find_element(locator.instagram.button_next1).click(by='mouse-emulation')
-    sleep(0.5)
+    sleep(1)
     tab.find_element(locator.instagram.my_caption).click(by='mouse-emulation')
     pyperclip.copy(description)
     cc.send_hotkey('^v')
@@ -234,6 +238,10 @@ def Upload():
         Upload_TikTok(file_path,full_description)
 
 def main():
+
+    cc.send_hotkey('^{Esc}')
+    my_send_text("chrome")
+    cc.send_hotkey('{ENTER}')
     Upload()
 
 # Run with these parameters
