@@ -1,11 +1,14 @@
 import subprocess
 import sys
+import pyautogui
 from time import sleep
 from clicknium import clicknium as cc, locator, ui
 from clicknium.core.models.web.webelement import WebElement
 import pyperclip
 import os
-
+r"""
+C:\Users\andre\AppData\Local\Programs\Python\Python310\python.exe .\sample.py -tiy "E:\Videos\Output\test30.mp4" "New tchin! Wrenchino! This one has a little wrench on his head" "Follow me for more updates on my game Tchin! #game #pokemon #roblox #trending #gamedev #gamedevelopment #unity #gaming #gamingvideos #blog #solo #journey #short #aiart #pokemoncompany  #gamingPC #fun #gamedev #gamefreak #funny #comedy #fortnite #amongus"
+"""
 isSharing = True
 myYoutubeChannel = "K7 Studio"
 
@@ -25,6 +28,7 @@ def GetTab(url: str):
     try:
         tab = cc.chrome.attach_by_title_url(url=f"*{url}*",timeout=3)
     except:
+        cc.chrome.open(url,is_maximize=True,is_wait_complete=True)
         first_tab = cc.chrome.attach_by_title_url('*')
         tab = first_tab.browser.new_tab(url)
     print("Going to another url!")
@@ -65,12 +69,27 @@ def my_send_text(text):
     cc.send_hotkey('^v')
 
 
-
+def FindElements(tab,locatorMain):
+    index = 1
+    # This is so fucking absurd, this code returns nothing, but it must populate some structure
+    # Removing this piece of code results in the find_elements returning empty
+    while True:
+        variables = {"index":index}
+        if tab.is_existing(locatorMain, variables):
+            text = tab.find_element(locatorMain, variables).get_text()
+            index += 1
+        else:
+            break
+    
+    allFlairs = tab.find_elements(locatorMain)
+    return allFlairs
+    
 
 def ClearTextAndInsert(tab,locator_f,text):
     #Send text to clipboard
     pyperclip.copy(text)
     tab.find_element(locator_f).click(by="mouse-emulation")
+    sleep(0.1)
     cc.send_hotkey('^a')
     cc.send_hotkey('{BACKSPACE}')
     # Paste text from clipboard
@@ -96,6 +115,7 @@ def Upload_Youtube(file_path: str,title: str,description: str):
     ChooseFileToUpload(tab,path,file)
     #Swap the content of the variable
     ClearTextAndInsert(tab,locator.youtube.div_title,title)
+    sleep(0.1)
     ClearTextAndInsert(tab,locator.youtube.div_description,description)
 
     # tab.find_element(locator.youtube.div_description).click(by="mouse-emulation")
@@ -133,16 +153,16 @@ def Upload_TikTok(file_path: str,description: str):
             
     # Edit the video, add a new sound to it but set it to 0
     # That way the video may get more videos because of it's association to a music
-    tab.find_element(locator.tiktok.button_edit_video).click(by='mouse-emulation')
-    sleep(0.5)
-    tab.find_element(locator.tiktok.text_music_author).click(by='mouse-emulation')
-    sleep(0.5)
-    tab.find_element(locator.tiktok.button_use_video).click(by='mouse-emulation')
-    tab.find_element(locator.tiktok.button_choose_split_audio).click(by='mouse-emulation')
-    tab.find_element(locator.tiktok.range_new_audio).drag_drop(xpoint=-100)
-    tab.find_element(locator.tiktok.range_old_audio).drag_drop(xpoint=100)
-    tab.find_element(locator.tiktok.button_save_edit).click(by='mouse-emulation')
-    sleep(1)
+    # tab.find_element(locator.tiktok.button_edit_video).click(by='mouse-emulation')
+    # sleep(0.5)
+    # tab.find_element(locator.tiktok.text_music_author).click(by='mouse-emulation')
+    # sleep(0.5)
+    # tab.find_element(locator.tiktok.button_use_video).click(by='mouse-emulation')
+    # tab.find_element(locator.tiktok.button_choose_split_audio).click(by='mouse-emulation')
+    # tab.find_element(locator.tiktok.range_new_audio).drag_drop(xpoint=-100)
+    # tab.find_element(locator.tiktok.range_old_audio).drag_drop(xpoint=100)
+    # tab.find_element(locator.tiktok.button_save_edit).click(by='mouse-emulation')
+    # sleep(1)
 
     ClearTextAndInsert(tab,locator.tiktok.caption,description)
     
@@ -160,7 +180,7 @@ def Upload_Insta(file_path: str,description: str):
     
     (path,file) = GetPathAndFile(file_path)
 
-    tab = GetTab("instagram.com/")
+    tab = GetTab("https://www.instagram.com/?ig_mid=66752A4B-11B6-4711-9FF7-8BE4BDE52E03&utm_source=igweb&fall_back_to_web=false")
     # tab = cc.chrome.attach_by_title_url(url="*instagram.com/*")
     # tab.goto("instagram.com/")
 
@@ -199,12 +219,39 @@ def Upload_Insta(file_path: str,description: str):
         print("Sent to instagram with sucess")
 
 
+def Upload_Reddit(file_path: str,description: str,subReddit: str,flair: str):
+    (path,file) = GetPathAndFile(file_path)
+
+    tab = GetTab(f"https://old.reddit.com/submit")
+    if (isSharing):
+        tab.find_element(locator.reddit.label_choose_file).click(by='mouse-emulation')
+        #Choose the correct file
+        ChooseFileToUpload(tab,path,file)
+
+    ClearTextAndInsert(tab,locator.reddit.text_subreddit,subReddit)
+    sleep(0.1)
+    ClearTextAndInsert(tab,locator.reddit.textarea_title,description)
+    sleep(0.1)
+    tab.find_element(locator.reddit.button_select).click(by='mouse-emulation')
+    sleep(0.1)
+
+    allFlairs = FindElements(tab,locator.reddit.span_question)
+    for flairElem in allFlairs:
+        print(flairElem.get_text())
+        if (str(flairElem.get_text()).endswith(flair)):
+            flairElem.click(by='mouse-emulation')
+    sleep(0.1)
+    tab.find_element(locator.reddit.button_apply).click(by='mouse-emulation',timeout=10)
+    tab.find_element(locator.reddit.button_form).click(by='mouse-emulation',timeout=10)
 
 def Upload():
     args_normal = sys.argv[1]
     flag_youtube = False
     flag_insta = False
     flag_tiktok = False
+    flag_reddit_unity = False
+    flag_reddit_blender3D = False
+    flag_reddit_blenderNormal = False
     global isSharing
     if (args_normal[0] == '-'):
         for arg in args_normal:
@@ -214,6 +261,12 @@ def Upload():
                 flag_insta = True
             elif (arg == 't'):
                 flag_tiktok = True
+            elif (arg == 'u'):
+                flag_reddit_unity = True
+            elif (arg == '3'):
+                flag_reddit_blender3D = True
+            elif (arg == 'b'):
+                flag_reddit_blenderNormal = True
             # Make it possible to not share, just for debug purposes
             elif (arg == 's'):
                 isSharing = False
@@ -236,14 +289,36 @@ def Upload():
         Upload_Insta(file_path,full_description)
     if (flag_tiktok):
         Upload_TikTok(file_path,full_description)
+    if (flag_reddit_unity):
+        Upload_Reddit(file_path,title,"Unity3D","Show-Off")
+    if (flag_reddit_blenderNormal):
+        Upload_Reddit(file_path,title,"Blender","I Made This")
+    if (flag_reddit_blender3D):
+        Upload_Reddit(file_path,title,"3dmodeling","3D Showcase")
+
+def send_program_complete():
+    pyautogui.keyDown('alt')
+    pyautogui.keyDown('tab')
+    sleep(0.1)
+    pyautogui.keyUp('tab')
+    pyautogui.keyUp('alt')
+    sleep(0.1)
+    cc.send_hotkey('^J')
+    sleep(0.1)
+    cc.send_hotkey('^J')
+    my_send_text("echo 'Program done'")
+    cc.send_hotkey('{ENTER}')
 
 def main():
-
-    cc.send_hotkey('^{Esc}')
-    my_send_text("chrome")
-    cc.send_hotkey('{ENTER}')
+    # cc.send_hotkey('^{Esc}')
+    # my_send_text("chrome")
+    # cc.send_hotkey('{ENTER}')
     Upload()
+    
+    if (isSharing):
+        send_program_complete()
 
+    
 # Run with these parameters
 # C:\Users\andre\AppData\Local\Programs\Python\Python310\python.exe .\sample.py -yit 
 # "E:\Videos\Output\fearghumi_walking.mp4" "Look at the newest addition to the my game!!"
