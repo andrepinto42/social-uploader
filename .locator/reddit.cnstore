@@ -1,632 +1,918 @@
-{
-	"id": "70041268-5573-4e89-8096-a228ce9e73c4",
-	"name": "reddit",
-	"nodes": [
-		{
-			"id": "3c9fd4b4-21ac-4c15-863f-aefdac6ac3a5",
-			"name": "old",
-			"nodes": [],
-			"locators": []
-		}
-	],
-	"locators": [
-		{
-			"id": "085642de-d271-4463-a9b4-30b5fa214aed",
-			"name": "button_apply",
-			"filePath": "fda9d5d5-c473-45e5-8fc1-c3c05553c9cc.jpg",
-			"content": {
-				"automationType": "Chrome",
-				"processName": {
-					"value": "chrome"
-				},
-				"filePath": {
-					"value": "chrome.exe"
-				},
-				"version": {
-					"value": "1.3"
-				},
-				"childControls": [
-					{
-						"identifier": {
-							"role": {
-								"value": "window"
-							},
-							"title": {
-								"value": "reddit.com: submit"
-							},
-							"url": {
-								"value": "https://old.reddit.com/submit",
-								"excluded": true
-							},
-							"className": {
-								"value": "Chrome_WidgetWin_1"
-							},
-							"controlMetaType": "Tab"
-						},
-						"childControls": [
-							{
-								"identifier": {
-									"tag": {
-										"value": "BUTTON"
-									},
-									"type": {
-										"value": "submit"
-									},
-									"ancestorId": {
-										"value": "newlink-flair-dropdown"
-									},
-									"ancestorClass": {
-										"value": "flairselector drop-choices active",
-										"excluded": true
-									},
-									"isLeaf": {
-										"value": "1",
-										"excluded": true
-									},
-									"cssSelector": {
-										"value": "body>div>div>form>button",
-										"excluded": true
-									},
-									"sInfo": {
-										"value": "apply",
-										"excluded": true
-									},
-									"tableRow": {
-										"value": "-1",
-										"excluded": true
-									},
-									"tableCol": {
-										"value": "-1",
-										"excluded": true
-									},
-									"controlMetaType": "Web",
-									"index": {
-										"value": "1",
-										"excluded": true
-									}
-								}
-							}
-						]
-					}
-				]
-			}
-		},
-		{
-			"id": "72de4e73-3b97-483e-9800-bd91abe6b1b8",
-			"name": "button_form",
-			"filePath": "23dacc5d-d27e-4f6a-a443-65c0cbacb533.jpg",
-			"content": {
-				"automationType": "Chrome",
-				"processName": {
-					"value": "chrome"
-				},
-				"filePath": {
-					"value": "chrome.exe"
-				},
-				"version": {
-					"value": "1.3"
-				},
-				"childControls": [
-					{
-						"identifier": {
-							"role": {
-								"value": "window"
-							},
-							"title": {
-								"value": "reddit.com: submit"
-							},
-							"url": {
-								"value": "https://old.reddit.com/submit",
-								"excluded": true
-							},
-							"className": {
-								"value": "Chrome_WidgetWin_1"
-							},
-							"controlMetaType": "Tab"
-						},
-						"childControls": [
-							{
-								"identifier": {
-									"tag": {
-										"value": "BUTTON"
-									},
-									"class": {
-										"value": "btn",
-										"excluded": true
-									},
-									"type": {
-										"value": "submit",
-										"excluded": true
-									},
-									"ancestorId": {
-										"value": "newlink",
-										"excluded": true
-									},
-									"ancestorClass": {
-										"value": "spacer",
-										"excluded": true
-									},
-									"isLeaf": {
-										"value": "1",
-										"excluded": true
-									},
-									"cssSelector": {
-										"value": "body>div>form>div>button",
-										"excluded": true
-									},
-									"sInfo": {
-										"value": "submit",
-										"excluded": true
-									},
-									"tableRow": {
-										"value": "-1",
-										"excluded": true
-									},
-									"tableCol": {
-										"value": "-1",
-										"excluded": true
-									},
-									"controlMetaType": "Web",
-									"name": {
-										"value": "submit"
-									},
-									"index": {
-										"value": "1",
-										"excluded": true
-									},
-									"value": {
-										"isCustom": true,
-										"value": "form",
-										"operator": "equals",
-										"excluded": true
-									}
-								}
-							}
-						]
-					}
-				]
-			}
-		},
-		{
-			"id": "92899b3b-c0d5-42d9-8d7d-86a6a7940aef",
-			"name": "button_select",
-			"filePath": "0f3f43c6-e6b3-430d-afc7-2b54c827c350.jpg",
-			"content": {
-				"automationType": "Chrome",
-				"processName": {
-					"value": "chrome"
-				},
-				"filePath": {
-					"value": "chrome.exe"
-				},
-				"version": {
-					"value": "1.3"
-				},
-				"childControls": [
-					{
-						"identifier": {
-							"role": {
-								"value": "window"
-							},
-							"title": {
-								"value": "reddit.com: submit"
-							},
-							"url": {
-								"value": "https://old.reddit.com/submit",
-								"excluded": true
-							},
-							"className": {
-								"value": "Chrome_WidgetWin_1"
-							},
-							"controlMetaType": "Tab"
-						},
-						"childControls": [
-							{
-								"identifier": {
-									"tag": {
-										"value": "BUTTON"
-									},
-									"class": {
-										"value": "flairselect-btn",
-										"excluded": true
-									},
-									"ancestorId": {
-										"value": "flair-field"
-									},
-									"ancestorClass": {
-										"value": "content-wrapper",
-										"excluded": true
-									},
-									"isLeaf": {
-										"value": "1",
-										"excluded": true
-									},
-									"cssSelector": {
-										"value": "body>div>form>div>div>div>div>div>button",
-										"excluded": true
-									},
-									"sInfo": {
-										"value": "select",
-										"excluded": true
-									},
-									"tableRow": {
-										"value": "-1",
-										"excluded": true
-									},
-									"tableCol": {
-										"value": "-1",
-										"excluded": true
-									},
-									"controlMetaType": "Web",
-									"index": {
-										"value": "1",
-										"excluded": true
-									}
-								}
-							}
-						]
-					}
-				]
-			}
-		},
-		{
-			"id": "d5dff216-cb24-4d91-838c-5c4017cdee61",
-			"name": "label_choose_file",
-			"filePath": "7312f018-2ffb-4bfb-8823-f0203fa4d583.jpg",
-			"content": {
-				"automationType": "Chrome",
-				"processName": {
-					"value": "chrome"
-				},
-				"filePath": {
-					"value": "chrome.exe"
-				},
-				"version": {
-					"value": "1.3"
-				},
-				"childControls": [
-					{
-						"identifier": {
-							"role": {
-								"value": "window"
-							},
-							"title": {
-								"value": "reddit.com: submit"
-							},
-							"url": {
-								"value": "https://old.reddit.com/submit",
-								"excluded": true
-							},
-							"className": {
-								"value": "Chrome_WidgetWin_1"
-							},
-							"controlMetaType": "Tab"
-						},
-						"childControls": [
-							{
-								"identifier": {
-									"tag": {
-										"value": "LABEL"
-									},
-									"class": {
-										"value": "file-upload-button c-btn c-btn-primary",
-										"excluded": true
-									},
-									"ancestorId": {
-										"value": "new-link-image-input"
-									},
-									"ancestorClass": {
-										"value": "image-post-upload image-upload-drop-target",
-										"excluded": true
-									},
-									"isLeaf": {
-										"value": "0",
-										"excluded": true
-									},
-									"cssSelector": {
-										"value": "body>div>form>div>div>div>div>div>div>label",
-										"excluded": true
-									},
-									"sInfo": {
-										"value": "Choose File",
-										"excluded": true
-									},
-									"tableRow": {
-										"value": "-1",
-										"excluded": true
-									},
-									"tableCol": {
-										"value": "-1",
-										"excluded": true
-									},
-									"controlMetaType": "Web",
-									"index": {
-										"value": "1",
-										"excluded": true
-									}
-								}
-							}
-						]
-					}
-				]
-			}
-		},
-		{
-			"id": "30135792-5e61-402b-9f32-78e8303aa1a8",
-			"name": "text_subreddit",
-			"filePath": "c4f8bda6-c4ed-4a33-a44b-c4fabaec7e84.jpg",
-			"content": {
-				"automationType": "Chrome",
-				"processName": {
-					"value": "chrome"
-				},
-				"filePath": {
-					"value": "chrome.exe"
-				},
-				"version": {
-					"value": "1.3"
-				},
-				"childControls": [
-					{
-						"identifier": {
-							"role": {
-								"value": "window"
-							},
-							"title": {
-								"value": "reddit.com: submit"
-							},
-							"url": {
-								"value": "https://old.reddit.com/submit",
-								"excluded": true
-							},
-							"className": {
-								"value": "Chrome_WidgetWin_1"
-							},
-							"controlMetaType": "Tab"
-						},
-						"childControls": [
-							{
-								"identifier": {
-									"tag": {
-										"value": "INPUT"
-									},
-									"id": {
-										"value": "sr-autocomplete"
-									},
-									"type": {
-										"value": "text",
-										"excluded": true
-									},
-									"ancestorId": {
-										"value": "sr-autocomplete-area",
-										"excluded": true
-									},
-									"ancestorClass": {
-										"value": "roundfield-content",
-										"excluded": true
-									},
-									"isLeaf": {
-										"value": "1",
-										"excluded": true
-									},
-									"cssSelector": {
-										"value": "body>div>form>div>div>div>div>div>input",
-										"excluded": true
-									},
-									"tableRow": {
-										"value": "-1",
-										"excluded": true
-									},
-									"tableCol": {
-										"value": "-1",
-										"excluded": true
-									},
-									"controlMetaType": "Web",
-									"name": {
-										"value": "sr",
-										"excluded": true
-									},
-									"index": {
-										"value": "1",
-										"excluded": true
-									},
-									"autocomplete": {
-										"isCustom": true,
-										"value": "off",
-										"operator": "equals",
-										"excluded": true
-									}
-								}
-							}
-						]
-					}
-				]
-			}
-		},
-		{
-			"id": "da7e3497-3648-4a8d-99bf-87d09e7f2b13",
-			"name": "textarea_title",
-			"filePath": "65003dc8-ce2f-4686-86ec-b16185aeac99.jpg",
-			"content": {
-				"automationType": "Chrome",
-				"processName": {
-					"value": "chrome"
-				},
-				"filePath": {
-					"value": "chrome.exe"
-				},
-				"version": {
-					"value": "1.3"
-				},
-				"childControls": [
-					{
-						"identifier": {
-							"role": {
-								"value": "window"
-							},
-							"title": {
-								"value": "reddit.com: submit"
-							},
-							"url": {
-								"value": "https://old.reddit.com/submit",
-								"excluded": true
-							},
-							"className": {
-								"value": "Chrome_WidgetWin_1"
-							},
-							"controlMetaType": "Tab"
-						},
-						"childControls": [
-							{
-								"identifier": {
-									"tag": {
-										"value": "TEXTAREA"
-									},
-									"class": {
-										"value": "title",
-										"excluded": true
-									},
-									"ancestorId": {
-										"value": "title-field",
-										"excluded": true
-									},
-									"ancestorClass": {
-										"value": "roundfield-content",
-										"excluded": true
-									},
-									"isLeaf": {
-										"value": "1",
-										"excluded": true
-									},
-									"cssSelector": {
-										"value": "body>div>form>div>div>div>div>div>textarea",
-										"excluded": true
-									},
-									"tableRow": {
-										"value": "-1",
-										"excluded": true
-									},
-									"tableCol": {
-										"value": "-1",
-										"excluded": true
-									},
-									"controlMetaType": "Web",
-									"name": {
-										"value": "title"
-									},
-									"index": {
-										"value": "1",
-										"excluded": true
-									},
-									"rows": {
-										"isCustom": true,
-										"value": "2",
-										"operator": "equals",
-										"excluded": true
-									},
-									"required": {
-										"isCustom": true,
-										"value": "required",
-										"operator": "equals",
-										"excluded": true
-									},
-									"maxlength": {
-										"isCustom": true,
-										"value": "300",
-										"operator": "equals",
-										"excluded": true
-									}
-								}
-							}
-						]
-					}
-				]
-			}
-		},
-		{
-			"id": "9940608b-e122-4fba-9f37-32f76fcdd9e5",
-			"name": "span_question",
-			"filePath": "9ddb56ac-c518-4046-80dd-e7abcc6dae66.jpg",
-			"content": {
-				"automationType": "Chrome",
-				"processName": {
-					"value": "chrome"
-				},
-				"filePath": {
-					"value": "chrome.exe"
-				},
-				"version": {
-					"value": "1.3"
-				},
-				"childControls": [
-					{
-						"identifier": {
-							"role": {
-								"value": "window"
-							},
-							"title": {
-								"value": "reddit.com: submit"
-							},
-							"url": {
-								"value": "https://old.reddit.com/submit",
-								"excluded": true
-							},
-							"className": {
-								"value": "Chrome_WidgetWin_1"
-							},
-							"controlMetaType": "Tab"
-						},
-						"childControls": [
-							{
-								"identifier": {
-									"tag": {
-										"value": "DIV"
-									},
-									"class": {
-										"value": "linkflair "
-									},
-									"ancestorId": {
-										"value": "0a7ee874-4aed-11e5-9e11-0ee61c357d3b",
-										"excluded": true
-									},
-									"ancestorClass": {
-										"value": "flairsample",
-										"operator": "startWith"
-									},
-									"isLeaf": {
-										"value": "0",
-										"excluded": true
-									},
-									"cssSelector": {
-										"value": "body>div>div>div>ul>li>div"
-									},
-									"tableRow": {
-										"value": "-1",
-										"excluded": true
-									},
-									"tableCol": {
-										"value": "-1",
-										"excluded": true
-									},
-									"controlMetaType": "Web",
-									"index": {
-										"value": "{{index}}",
-										"excluded": true
-									}
-								},
-								"childControls": [],
-								"excluded": false
-							}
-						],
-						"excluded": false
-					}
-				],
-				"parameters": {
-					"excluded": true,
-					"operator": "equals",
-					"value": ""
-				}
-			}
-		}
-	]
+﻿{
+  "id": "70041268-5573-4e89-8096-a228ce9e73c4",
+  "name": "reddit",
+  "nodes": [],
+  "locators": [
+    {
+      "id": "085642de-d271-4463-a9b4-30b5fa214aed",
+      "name": "button_apply",
+      "filePath": "fda9d5d5-c473-45e5-8fc1-c3c05553c9cc.jpg",
+      "content": {
+        "automationType": "Chrome",
+        "processName": {
+          "value": "chrome"
+        },
+        "filePath": {
+          "value": "chrome.exe"
+        },
+        "version": {
+          "value": "1.3"
+        },
+        "childControls": [
+          {
+            "identifier": {
+              "role": {
+                "value": "window"
+              },
+              "title": {
+                "value": "reddit.com: submit"
+              },
+              "url": {
+                "value": "https://old.reddit.com/submit",
+                "excluded": true
+              },
+              "className": {
+                "value": "Chrome_WidgetWin_1"
+              },
+              "controlMetaType": "Tab"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "tag": {
+                    "value": "BUTTON"
+                  },
+                  "type": {
+                    "value": "submit"
+                  },
+                  "ancestorId": {
+                    "value": "newlink-flair-dropdown"
+                  },
+                  "ancestorClass": {
+                    "value": "flairselector drop-choices active",
+                    "excluded": true
+                  },
+                  "isLeaf": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "cssSelector": {
+                    "value": "body>div>div>form>button",
+                    "excluded": true
+                  },
+                  "sInfo": {
+                    "value": "apply",
+                    "excluded": true
+                  },
+                  "tableRow": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "tableCol": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "controlMetaType": "Web",
+                  "index": {
+                    "value": "1",
+                    "excluded": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "72de4e73-3b97-483e-9800-bd91abe6b1b8",
+      "name": "button_form",
+      "filePath": "23dacc5d-d27e-4f6a-a443-65c0cbacb533.jpg",
+      "content": {
+        "automationType": "Chrome",
+        "processName": {
+          "value": "chrome"
+        },
+        "filePath": {
+          "value": "chrome.exe"
+        },
+        "version": {
+          "value": "1.3"
+        },
+        "childControls": [
+          {
+            "identifier": {
+              "role": {
+                "value": "window"
+              },
+              "title": {
+                "value": "reddit.com: submit"
+              },
+              "url": {
+                "value": "https://old.reddit.com/submit",
+                "excluded": true
+              },
+              "className": {
+                "value": "Chrome_WidgetWin_1"
+              },
+              "controlMetaType": "Tab"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "tag": {
+                    "value": "BUTTON"
+                  },
+                  "class": {
+                    "value": "btn",
+                    "excluded": true
+                  },
+                  "type": {
+                    "value": "submit",
+                    "excluded": true
+                  },
+                  "ancestorId": {
+                    "value": "newlink",
+                    "excluded": true
+                  },
+                  "ancestorClass": {
+                    "value": "spacer",
+                    "excluded": true
+                  },
+                  "isLeaf": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "cssSelector": {
+                    "value": "body>div>form>div>button",
+                    "excluded": true
+                  },
+                  "sInfo": {
+                    "value": "submit",
+                    "excluded": true
+                  },
+                  "tableRow": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "tableCol": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "controlMetaType": "Web",
+                  "name": {
+                    "value": "submit"
+                  },
+                  "index": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "value": {
+                    "isCustom": true,
+                    "value": "form",
+                    "operator": "equals",
+                    "excluded": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "92899b3b-c0d5-42d9-8d7d-86a6a7940aef",
+      "name": "button_select",
+      "filePath": "0f3f43c6-e6b3-430d-afc7-2b54c827c350.jpg",
+      "content": {
+        "automationType": "Chrome",
+        "processName": {
+          "value": "chrome"
+        },
+        "filePath": {
+          "value": "chrome.exe"
+        },
+        "version": {
+          "value": "1.3"
+        },
+        "childControls": [
+          {
+            "identifier": {
+              "role": {
+                "value": "window"
+              },
+              "title": {
+                "value": "reddit.com: submit"
+              },
+              "url": {
+                "value": "https://old.reddit.com/submit",
+                "excluded": true
+              },
+              "className": {
+                "value": "Chrome_WidgetWin_1"
+              },
+              "controlMetaType": "Tab"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "tag": {
+                    "value": "BUTTON"
+                  },
+                  "class": {
+                    "value": "flairselect-btn",
+                    "excluded": true
+                  },
+                  "ancestorId": {
+                    "value": "flair-field"
+                  },
+                  "ancestorClass": {
+                    "value": "content-wrapper",
+                    "excluded": true
+                  },
+                  "isLeaf": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "cssSelector": {
+                    "value": "body>div>form>div>div>div>div>div>button",
+                    "excluded": true
+                  },
+                  "sInfo": {
+                    "value": "select",
+                    "excluded": true
+                  },
+                  "tableRow": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "tableCol": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "controlMetaType": "Web",
+                  "index": {
+                    "value": "1",
+                    "excluded": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "d5dff216-cb24-4d91-838c-5c4017cdee61",
+      "name": "label_choose_file",
+      "filePath": "7312f018-2ffb-4bfb-8823-f0203fa4d583.jpg",
+      "content": {
+        "automationType": "Chrome",
+        "processName": {
+          "value": "chrome"
+        },
+        "filePath": {
+          "value": "chrome.exe"
+        },
+        "version": {
+          "value": "1.3"
+        },
+        "childControls": [
+          {
+            "identifier": {
+              "role": {
+                "value": "window"
+              },
+              "title": {
+                "value": "reddit.com: submit"
+              },
+              "url": {
+                "value": "https://old.reddit.com/submit",
+                "excluded": true
+              },
+              "className": {
+                "value": "Chrome_WidgetWin_1"
+              },
+              "controlMetaType": "Tab"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "tag": {
+                    "value": "LABEL"
+                  },
+                  "class": {
+                    "value": "file-upload-button c-btn c-btn-primary",
+                    "excluded": true
+                  },
+                  "ancestorId": {
+                    "value": "new-link-image-input"
+                  },
+                  "ancestorClass": {
+                    "value": "image-post-upload image-upload-drop-target",
+                    "excluded": true
+                  },
+                  "isLeaf": {
+                    "value": "0",
+                    "excluded": true
+                  },
+                  "cssSelector": {
+                    "value": "body>div>form>div>div>div>div>div>div>label",
+                    "excluded": true
+                  },
+                  "sInfo": {
+                    "value": "Choose File",
+                    "excluded": true
+                  },
+                  "tableRow": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "tableCol": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "controlMetaType": "Web",
+                  "index": {
+                    "value": "1",
+                    "excluded": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "30135792-5e61-402b-9f32-78e8303aa1a8",
+      "name": "text_subreddit",
+      "filePath": "c4f8bda6-c4ed-4a33-a44b-c4fabaec7e84.jpg",
+      "content": {
+        "automationType": "Chrome",
+        "processName": {
+          "value": "chrome"
+        },
+        "filePath": {
+          "value": "chrome.exe"
+        },
+        "version": {
+          "value": "1.3"
+        },
+        "childControls": [
+          {
+            "identifier": {
+              "role": {
+                "value": "window"
+              },
+              "title": {
+                "value": "reddit.com: submit"
+              },
+              "url": {
+                "value": "https://old.reddit.com/submit",
+                "excluded": true
+              },
+              "className": {
+                "value": "Chrome_WidgetWin_1"
+              },
+              "controlMetaType": "Tab"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "tag": {
+                    "value": "INPUT"
+                  },
+                  "id": {
+                    "value": "sr-autocomplete"
+                  },
+                  "type": {
+                    "value": "text",
+                    "excluded": true
+                  },
+                  "ancestorId": {
+                    "value": "sr-autocomplete-area",
+                    "excluded": true
+                  },
+                  "ancestorClass": {
+                    "value": "roundfield-content",
+                    "excluded": true
+                  },
+                  "isLeaf": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "cssSelector": {
+                    "value": "body>div>form>div>div>div>div>div>input",
+                    "excluded": true
+                  },
+                  "tableRow": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "tableCol": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "controlMetaType": "Web",
+                  "name": {
+                    "value": "sr",
+                    "excluded": true
+                  },
+                  "index": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "autocomplete": {
+                    "isCustom": true,
+                    "value": "off",
+                    "operator": "equals",
+                    "excluded": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "da7e3497-3648-4a8d-99bf-87d09e7f2b13",
+      "name": "textarea_title",
+      "filePath": "65003dc8-ce2f-4686-86ec-b16185aeac99.jpg",
+      "content": {
+        "automationType": "Chrome",
+        "processName": {
+          "value": "chrome"
+        },
+        "filePath": {
+          "value": "chrome.exe"
+        },
+        "version": {
+          "value": "1.3"
+        },
+        "childControls": [
+          {
+            "identifier": {
+              "role": {
+                "value": "window"
+              },
+              "title": {
+                "value": "reddit.com: submit"
+              },
+              "url": {
+                "value": "https://old.reddit.com/submit",
+                "excluded": true
+              },
+              "className": {
+                "value": "Chrome_WidgetWin_1"
+              },
+              "controlMetaType": "Tab"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "tag": {
+                    "value": "TEXTAREA"
+                  },
+                  "class": {
+                    "value": "title",
+                    "excluded": true
+                  },
+                  "ancestorId": {
+                    "value": "title-field",
+                    "excluded": true
+                  },
+                  "ancestorClass": {
+                    "value": "roundfield-content",
+                    "excluded": true
+                  },
+                  "isLeaf": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "cssSelector": {
+                    "value": "body>div>form>div>div>div>div>div>textarea",
+                    "excluded": true
+                  },
+                  "tableRow": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "tableCol": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "controlMetaType": "Web",
+                  "name": {
+                    "value": "title"
+                  },
+                  "index": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "rows": {
+                    "isCustom": true,
+                    "value": "2",
+                    "operator": "equals",
+                    "excluded": true
+                  },
+                  "required": {
+                    "isCustom": true,
+                    "value": "required",
+                    "operator": "equals",
+                    "excluded": true
+                  },
+                  "maxlength": {
+                    "isCustom": true,
+                    "value": "300",
+                    "operator": "equals",
+                    "excluded": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "9940608b-e122-4fba-9f37-32f76fcdd9e5",
+      "name": "span_question",
+      "filePath": "9ddb56ac-c518-4046-80dd-e7abcc6dae66.jpg",
+      "content": {
+        "automationType": "Chrome",
+        "processName": {
+          "value": "chrome"
+        },
+        "filePath": {
+          "value": "chrome.exe"
+        },
+        "version": {
+          "value": "1.3"
+        },
+        "childControls": [
+          {
+            "identifier": {
+              "role": {
+                "value": "window"
+              },
+              "title": {
+                "value": "reddit.com: submit"
+              },
+              "url": {
+                "value": "https://old.reddit.com/submit",
+                "excluded": true
+              },
+              "className": {
+                "value": "Chrome_WidgetWin_1"
+              },
+              "controlMetaType": "Tab"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "tag": {
+                    "value": "DIV"
+                  },
+                  "class": {
+                    "value": "linkflair "
+                  },
+                  "ancestorId": {
+                    "value": "0a7ee874-4aed-11e5-9e11-0ee61c357d3b",
+                    "excluded": true
+                  },
+                  "ancestorClass": {
+                    "value": "flairsample",
+                    "operator": "startWith"
+                  },
+                  "isLeaf": {
+                    "value": "0",
+                    "excluded": true
+                  },
+                  "cssSelector": {
+                    "value": "body>div>div>div>ul>li>div"
+                  },
+                  "tableRow": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "tableCol": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "controlMetaType": "Web",
+                  "index": {
+                    "value": "{{index}}",
+                    "excluded": true
+                  }
+                },
+                "childControls": [],
+                "excluded": false
+              }
+            ],
+            "excluded": false
+          }
+        ],
+        "parameters": {
+          "excluded": true,
+          "operator": "equals",
+          "value": ""
+        }
+      }
+    },
+    {
+      "id": "2752292f-bb01-4479-8058-083892c5eb92",
+      "name": "button_add_a_comment",
+      "filePath": "80974290-a1d6-4e6f-95d8-45ba61971886.jpg",
+      "content": {
+        "automationType": "Chrome",
+        "processName": {
+          "value": "chrome"
+        },
+        "filePath": {
+          "value": "chrome.exe"
+        },
+        "version": {
+          "value": "1.3"
+        },
+        "childControls": [
+          {
+            "identifier": {
+              "role": {
+                "value": "window"
+              },
+              "title": {
+                "value": "My little ghost is painted! Does it look good or goofy? : r/Tchin"
+              },
+              "url": {
+                "value": "https://www.reddit.com/r/Tchin/comments/1cxmp7n/my_little_ghost_is_painted_does_it_look_good_or/",
+                "excluded": true
+              },
+              "className": {
+                "value": "Chrome_WidgetWin_1"
+              },
+              "controlMetaType": "Tab"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "tag": {
+                    "value": "BUTTON"
+                  },
+                  "class": {
+                    "value": "disabled:cursor-not-allowed cursor-text disabled:opacity-50 w-full text-neutral-content-weak text-14 leading-6 font-normal px-md py-xs bg-neutral-background border-neutral-border border-solid border tracking-tight text-left h-auto",
+                    "excluded": true
+                  },
+                  "ancestorId": {
+                    "value": "main-content"
+                  },
+                  "ancestorClass": {
+                    "value": "block px-md xs:px-0 bg-[color:var(--shreddit-content-background)] text-tone-1",
+                    "excluded": true
+                  },
+                  "isLeaf": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "cssSelector": {
+                    "value": "body>shreddit-app>dsa-transparency-modal-provider>report-flow-provider>div>div>div>main>shreddit-async-loader>comment-body-header>shreddit-async-loader>comment-composer-host>faceplate-tracker>button"
+                  },
+                  "sInfo": {
+                    "value": "Add a comment",
+                    "excluded": true
+                  },
+                  "tableRow": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "tableCol": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "controlMetaType": "Web",
+                  "index": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "data-testid": {
+                    "isCustom": true,
+                    "value": "trigger-button",
+                    "operator": "equals",
+                    "excluded": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "887ad2ff-d720-4757-b7dc-d0c9ba6c2ed0",
+      "name": "button_form_disabled",
+      "filePath": "83c4249a-49fc-4fab-a3af-940e76a93b1e.jpg",
+      "content": {
+        "automationType": "Chrome",
+        "processName": {
+          "value": "chrome"
+        },
+        "filePath": {
+          "value": "chrome.exe"
+        },
+        "version": {
+          "value": "1.3"
+        },
+        "childControls": [
+          {
+            "identifier": {
+              "role": {
+                "value": "window"
+              },
+              "title": {
+                "value": "reddit.com: submit"
+              },
+              "url": {
+                "value": "https://old.reddit.com/submit",
+                "excluded": true
+              },
+              "className": {
+                "value": "Chrome_WidgetWin_1"
+              },
+              "controlMetaType": "Tab"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "tag": {
+                    "value": "BUTTON"
+                  },
+                  "class": {
+                    "value": "btn",
+                    "excluded": true
+                  },
+                  "type": {
+                    "value": "submit",
+                    "excluded": true
+                  },
+                  "ancestorId": {
+                    "value": "newlink",
+                    "excluded": true
+                  },
+                  "ancestorClass": {
+                    "value": "spacer",
+                    "excluded": true
+                  },
+                  "isLeaf": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "cssSelector": {
+                    "value": "body>div>form>div>button",
+                    "excluded": true
+                  },
+                  "sInfo": {
+                    "value": "submit",
+                    "excluded": true
+                  },
+                  "tableRow": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "tableCol": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "controlMetaType": "Web",
+                  "name": {
+                    "value": "submit"
+                  },
+                  "index": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "value": {
+                    "isCustom": true,
+                    "value": "form",
+                    "operator": "equals",
+                    "excluded": true
+                  },
+                  "disabled": {
+                    "isCustom": true,
+                    "value": "disabled",
+                    "operator": "equals",
+                    "excluded": false
+                  }
+                },
+                "childControls": [],
+                "excluded": false
+              }
+            ],
+            "excluded": false
+          }
+        ],
+        "parameters": {
+          "excluded": true,
+          "operator": "equals",
+          "value": ""
+        }
+      }
+    },
+    {
+      "id": "07021e88-da56-4fd5-ab44-754ce28a2afc",
+      "name": "button_comment",
+      "filePath": "82ba3fe6-34f7-4c68-ab29-9b3d5c377e10.jpg",
+      "content": {
+        "automationType": "Chrome",
+        "processName": {
+          "value": "chrome"
+        },
+        "filePath": {
+          "value": "chrome.exe"
+        },
+        "version": {
+          "value": "1.3"
+        },
+        "childControls": [
+          {
+            "identifier": {
+              "role": {
+                "value": "window"
+              },
+              "title": {
+                "value": "My little ghost is painted! Does it look good or goofy? : r/Tchin"
+              },
+              "url": {
+                "value": "https://www.reddit.com/r/Tchin/comments/1cxn37c/my_little_ghost_is_painted_does_it_look_good_or/",
+                "excluded": true
+              },
+              "className": {
+                "value": "Chrome_WidgetWin_1"
+              },
+              "controlMetaType": "Tab"
+            },
+            "childControls": [
+              {
+                "identifier": {
+                  "tag": {
+                    "value": "BUTTON"
+                  },
+                  "class": {
+                    "value": "relative button-small px-[var(--rem10)] button-primary items-center justify-center button inline-flex cursor-pointer",
+                    "excluded": true
+                  },
+                  "type": {
+                    "value": "submit"
+                  },
+                  "ancestorId": {
+                    "value": "main-content",
+                    "excluded": true
+                  },
+                  "ancestorName": {
+                    "value": "content",
+                    "excluded": true
+                  },
+                  "ancestorClass": {
+                    "value": "w-full block",
+                    "excluded": true
+                  },
+                  "isLeaf": {
+                    "value": "0",
+                    "excluded": true
+                  },
+                  "cssSelector": {
+                    "value": "body>shreddit-app>dsa-transparency-modal-provider>report-flow-provider>div>div>div>main>shreddit-async-loader>comment-body-header>shreddit-async-loader>comment-composer-host>faceplate-form>shreddit-composer>button",
+                    "excluded": true
+                  },
+                  "sInfo": {
+                    "value": "Comment",
+                    "excluded": true
+                  },
+                  "tableRow": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "tableCol": {
+                    "value": "-1",
+                    "excluded": true
+                  },
+                  "controlMetaType": "Web",
+                  "index": {
+                    "value": "1",
+                    "excluded": true
+                  },
+                  "slot": {
+                    "isCustom": true,
+                    "value": "submit-button",
+                    "operator": "equals",
+                    "excluded": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
 }

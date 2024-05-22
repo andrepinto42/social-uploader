@@ -6,11 +6,26 @@ from clicknium import clicknium as cc, locator, ui
 from clicknium.core.models.web.webelement import WebElement
 import pyperclip
 import os
+import random
 r"""
 C:\Users\andre\AppData\Local\Programs\Python\Python310\python.exe .\sample.py -tiy "E:\Videos\Output\test30.mp4" "New tchin! Wrenchino! This one has a little wrench on his head" "Follow me for more updates on my game Tchin! #game #pokemon #roblox #trending #gamedev #gamedevelopment #unity #gaming #gamingvideos #blog #solo #journey #short #aiart #pokemoncompany  #gamingPC #fun #gamedev #gamefreak #funny #comedy #fortnite #amongus"
 """
+
+randomCheckoutMessage = [
+"Hi! I also run a YouTube channel where I share updates about my game",
+"Hey everyone, check out my YouTube channel for the latest news on my game",
+"Hello! I post updates about my game on my YouTube channel, so feel free to take a look",
+"Hi there! If you're interested in my game, I regularly post updates on my YouTube channel",
+"Hey! For updates on my game, don't forget to visit my YouTube channel",
+"Hi folks, I also update my YouTube channel with news about my game",
+"Hello! I have a YouTube channel where I post game updates. Come check it out",
+"Hi! You can find updates about my game on my YouTube channel as well",
+"Hey everyone, I share game updates on my YouTube channel too",
+"Hi there! For game updates, you can follow my YouTube channel"
+]
 isSharing = True
 myYoutubeChannel = "K7 Studio"
+myYoutubeChannelAddress = "https://www.youtube.com/channel/UC1lIRdpCcy-dgm8596reFTw"
 
 def Swap_AccountInsta(tab: WebElement):
     tab.find_element(locator.instagram.switch_button).click()
@@ -222,27 +237,47 @@ def Upload_Insta(file_path: str,description: str):
 def Upload_Reddit(file_path: str,description: str,subReddit: str,flair: str):
     (path,file) = GetPathAndFile(file_path)
 
-    tab = GetTab(f"https://old.reddit.com/submit")
-    if (isSharing):
-        tab.find_element(locator.reddit.label_choose_file).click(by='mouse-emulation')
-        #Choose the correct file
-        ChooseFileToUpload(tab,path,file)
-
+    tab = GetTab(f"old.reddit.com/submit")
+    
+    tab.find_element(locator.reddit.label_choose_file).click(by='mouse-emulation')
+    #Choose the correct file
+    ChooseFileToUpload(tab,path,file)
+    sleep(0.1)
     ClearTextAndInsert(tab,locator.reddit.text_subreddit,subReddit)
     sleep(0.1)
     ClearTextAndInsert(tab,locator.reddit.textarea_title,description)
     sleep(0.1)
     tab.find_element(locator.reddit.button_select).click(by='mouse-emulation')
     sleep(0.1)
+    
+    if (flair != ""):
+        allFlairs = FindElements(tab,locator.reddit.span_question)
+        print("Found this number of flairs ",len(allFlairs))
+        for flairElem in allFlairs:
+            if (str(flairElem.get_text()).endswith(flair)):
+                flairElem.click(by='mouse-emulation')
+        sleep(0.1)
+        tab.find_element(locator.reddit.button_apply).click(by='mouse-emulation',timeout=10)
+        sleep(0.1)
+    
+    if (isSharing):
+        timer = 0.0
+        while(timer < 3.0):
+            if (not tab.is_existing(locator.reddit.button_form_disabled)):
+                break
+            sleep(0.1)
+            timer+=0.1
+        tab.find_element(locator.reddit.button_form).click()
+        
+        tab.find_element(locator.reddit.button_add_a_comment).click(by='mouse-emulation',timeout=10)
+        message = randomCheckoutMessage[random.randint(0, len(randomCheckoutMessage))] + """
 
-    allFlairs = FindElements(tab,locator.reddit.span_question)
-    for flairElem in allFlairs:
-        print(flairElem.get_text())
-        if (str(flairElem.get_text()).endswith(flair)):
-            flairElem.click(by='mouse-emulation')
-    sleep(0.1)
-    tab.find_element(locator.reddit.button_apply).click(by='mouse-emulation',timeout=10)
-    tab.find_element(locator.reddit.button_form).click(by='mouse-emulation',timeout=10)
+""" + myYoutubeChannelAddress
+        my_send_text(message)
+        tab.find_element(locator.reddit.button_comment).click()
+        
+        
+        
 
 def Upload():
     args_normal = sys.argv[1]
@@ -295,6 +330,8 @@ def Upload():
         Upload_Reddit(file_path,title,"Blender","I Made This")
     if (flag_reddit_blender3D):
         Upload_Reddit(file_path,title,"3dmodeling","3D Showcase")
+
+    Upload_Reddit(file_path,title,"tchin","")
 
 def send_program_complete():
     pyautogui.keyDown('alt')
